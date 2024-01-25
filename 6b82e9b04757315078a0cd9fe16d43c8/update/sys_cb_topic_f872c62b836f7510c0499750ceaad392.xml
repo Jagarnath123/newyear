@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.42",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "e055ddbfebd544dc96a4a358e605e6c7": {
+          "id": "e055ddbfebd544dc96a4a358e605e6c7",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "a35fbc5b4fd840ec8db8cd3f8c5c6184": {
+          "id": "a35fbc5b4fd840ec8db8cd3f8c5c6184",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "9e522b2ee6f64892907325e2c526faee": {
+          "id": "9e522b2ee6f64892907325e2c526faee",
+          "stepType": "TextOutput",
+          "name": "IP Value",
+          "secure": false,
+          "value": [
+            {
+              "value": "(function execute() {\n    /* Return a quoted string.  For example:\n\n       if (vaInputs.first_name == 'Bill') {\n           return gs.getMessageLang(\"hi there {0}\", vaContext.getRequesterLang(), [vaInputs.first_name]);\n       } else {\n           return gs.getMessageLang(\"how are you {0}\", vaContext.getRequesterLang(), [vaInputs.last_name]);\n       }\n    */\n    return vaInputs.details;\n})()\n",
+              "mode": "script"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "3a6aa3b7ff1c4657b601bdb885d8cbd5": {
+          "id": "3a6aa3b7ff1c4657b601bdb885d8cbd5",
+          "name": "IP Address",
+          "invocationType": "action",
+          "stepType": "FlowAction",
+          "actionSpoke": "6b82e9b04757315078a0cd9fe16d43c8",
+          "actionSpokeAction": "a68935af832f7510c0499750ceaad33a",
+          "actionWaitType": "sync",
+          "actionRunAs": "session_user",
+          "permissionsNote": "By default, the Action executes based on the permissions of the user who initiated the conversation. For elevated privileges, you can set to System User.",
+          "actionSecureField": false,
+          "actionSelectSecureField": "",
+          "actionPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "actionConfirmPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "actionNonSecureChannelMessage": {
+            "mode": "simple",
+            "value": ""
+          },
+          "actionInputs": {},
+          "actionOutputs": {
+            "output-details": [
+              {
+                "id": "94004f37725f4fb68ffd15f99ee5ae5f",
+                "mapping": "Details",
+                "disabled": false,
+                "type": "string",
+                "value": "Details",
+                "is_list_data_entry": false,
+                "variable": "Details",
+                "variableName": "details"
+              }
+            ],
+            "output-__action_status__": [
+              {
+                "id": "da900e820efb4a7088fc45c9e656920e",
+                "mapping": "Action Status",
+                "disabled": false,
+                "type": "object",
+                "value": "Action Status",
+                "is_list_data_entry": false,
+                "variable": "Action Status",
+                "variableName": "action_status"
+              }
+            ],
+            "output-__dont_treat_as_error__": [
+              {
+                "id": "da9451db63974bcea53b679c5bedeb23",
+                "mapping": "Don't Treat as Error",
+                "disabled": false,
+                "type": "boolean",
+                "value": "Don't Treat as Error",
+                "is_list_data_entry": false,
+                "variable": "Don't Treat As Error",
+                "variableName": "don_t_treat_as_error"
+              }
+            ]
+          },
+          "actionDefinition": {
+            "id": "a68935af832f7510c0499750ceaad33a",
+            "latest_snapshot_id": "a68935af832f7510c0499750ceaad33a",
+            "type": "action",
+            "name": "sn_ip_address",
+            "label": "SN IP Address",
+            "scope_id": "6b82e9b04757315078a0cd9fe16d43c8",
+            "description": "",
+            "category": "",
+            "parameters_have_loaded": true,
+            "input_parameters": [],
+            "output_parameters": [
+              {
+                "name": "details",
+                "label": "Details",
+                "type": "string",
+                "order": 1,
+                "required": false,
+                "value": [],
+                "is_list_data_entry": false
+              },
+              {
+                "name": "__action_status__",
+                "label": "Action Status",
+                "type": "object",
+                "order": 2,
+                "required": false,
+                "value": [],
+                "is_list_data_entry": false
+              },
+              {
+                "name": "__dont_treat_as_error__",
+                "label": "Don't Treat as Error",
+                "type": "boolean",
+                "order": 3,
+                "required": false,
+                "value": [],
+                "is_list_data_entry": false
+              }
+            ]
+          },
+          "subflowSecureField": false,
+          "subflowSelectSecureField": "",
+          "subflowPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "subflowConfirmPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "subflowNonSecureChannelMessage": {
+            "mode": "simple",
+            "value": "This action is not supported on this channel."
+          },
+          "variableIds": [
+            "94004f37725f4fb68ffd15f99ee5ae5f",
+            "da900e820efb4a7088fc45c9e656920e",
+            "da9451db63974bcea53b679c5bedeb23"
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "371cacc0953f488cb179b9651851a296",
+          "edgeType": "Edge",
+          "source": "9e522b2ee6f64892907325e2c526faee",
+          "target": "a35fbc5b4fd840ec8db8cd3f8c5c6184",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "987ef7ce05204a7782cc25597e33deaa",
+          "edgeType": "Edge",
+          "source": "e055ddbfebd544dc96a4a358e605e6c7",
+          "target": "3a6aa3b7ff1c4657b601bdb885d8cbd5",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "30855634fcbc4c46bbe76354644f415d",
+          "edgeType": "Edge",
+          "source": "3a6aa3b7ff1c4657b601bdb885d8cbd5",
+          "target": "9e522b2ee6f64892907325e2c526faee",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "94004f37725f4fb68ffd15f99ee5ae5f": {
+      "id": "94004f37725f4fb68ffd15f99ee5ae5f",
+      "name": "details",
+      "label": "Details",
+      "defaultValue": "Details",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "is_list_data_entry": false,
+      "nodeId": "3a6aa3b7ff1c4657b601bdb885d8cbd5",
+      "isHidden": false
+    },
+    "da900e820efb4a7088fc45c9e656920e": {
+      "id": "da900e820efb4a7088fc45c9e656920e",
+      "name": "action_status",
+      "label": "Action Status",
+      "defaultValue": "Action Status",
+      "varType": "object",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "is_list_data_entry": false,
+      "nodeId": "3a6aa3b7ff1c4657b601bdb885d8cbd5",
+      "isHidden": false
+    },
+    "da9451db63974bcea53b679c5bedeb23": {
+      "id": "da9451db63974bcea53b679c5bedeb23",
+      "name": "don_t_treat_as_error",
+      "label": "Don't Treat As Error",
+      "defaultValue": "Don't Treat as Error",
+      "varType": "boolean",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "is_list_data_entry": false,
+      "nodeId": "3a6aa3b7ff1c4657b601bdb885d8cbd5",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <key_phrases>ServiceNow IP address</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>ServiceNow IP address</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 14:24:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f872c62b836f7510c0499750ceaad392</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ServiceNow IP address</sys_name>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>sys_cb_topic_f872c62b836f7510c0499750ceaad392</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 14:31:01</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+</record_update>

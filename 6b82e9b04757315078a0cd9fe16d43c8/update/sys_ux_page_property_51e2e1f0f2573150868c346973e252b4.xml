@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="New Year Countdown">99e2e1f04757315078a0cd9fe16d438e</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Login">9de2e1f0f75731506e1ec0b772d945d4</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-21 12:48:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>51e2e1f0f2573150868c346973e252b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>sys_ux_page_property_51e2e1f0f2573150868c346973e252b4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-21 12:48:10</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1136210_new_ye_0.99e2e1f04757315078a0cd9fe16d438e.route.chrome_header.9de2e1f0f75731506e1ec0b772d945d4</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    },&#13;
+    "publicPage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    }&#13;
+ }</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=51e2e1f0f2573150868c346973e252b4"/>
+</record_update>

@@ -1,0 +1,2274 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>true</ih_action>
+        <internal_name>connect_azure</internal_name>
+        <label_cache>[{"name":"{{step[cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c].serviceprincipal}}","label":"step➛Script step➛serviceprincipal","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"83071247-c53c-44ba-9ab7-1336933bb827"}},{"name":"{{step[cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c].secret}}","label":"step➛Script step➛secret","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ba4d60a3-dea8-4571-82c6-879b3a1d15ec"}},{"name":"{{step[cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c].tenant}}","label":"step➛Script step➛tenant","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"0096677d-66c4-4cdc-8cb6-bdb3fd0e73a7"}}]</label_cache>
+        <master_snapshot>8b33439883ff3910c0499750ceaad37e</master_snapshot>
+        <name>Connect Azure</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 02:58:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0302c71883ff3910c0499750ceaad31d</sys_id>
+        <sys_mod_count>69</sys_mod_count>
+        <sys_name>Connect Azure</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_0302c71883ff3910c0499750ceaad31d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:46:51</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=0302c71883ff3910c0499750ceaad31d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0302c71883ff3910c0499750ceaad31d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>0302c71883ff3910c0499750ceaad31d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:10</sys_created_on>
+        <sys_id>7623cf5883ff3910c0499750ceaad3fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:10</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">7623cf5883ff3910c0499750ceaad3ee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>0302c71883ff3910c0499750ceaad31d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:10</sys_created_on>
+        <sys_id>b223cf5883ff3910c0499750ceaad3fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:10</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">be23cf5883ff3910c0499750ceaad3f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_0302c71883ff3910c0499750ceaad31d^id=0302c71883ff3910c0499750ceaad31d"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=0302c71883ff3910c0499750ceaad31d^sys_idNOT IN5f92cb1883ff3910c0499750ceaad3cd,a6b5cf1c83ff3910c0499750ceaad304"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Connect Azure">0302c71883ff3910c0499750ceaad31d</action>
+        <cid>cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:00:45</sys_created_on>
+        <sys_id>5f92cb1883ff3910c0499750ceaad3cd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:06:42</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5f92cb1883ff3910c0499750ceaad3cd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5f92cb1883ff3910c0499750ceaad3cd</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:00:45</sys_created_on>
+        <sys_id>2792c75883ff3910c0499750ceaad313</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:06:42</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+  &#13;
+&#13;
+  outputs.serviceprincipal= gs.getProperty("x_1136210_new_ye_0.az.serviceprincipal");&#13;
+  outputs.secret= gs.getProperty("x_1136210_new_ye_0.az.secret");&#13;
+  outputs.tenant= gs.getProperty("x_1136210_new_ye_0.az.tenant");&#13;
+&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5f92cb1883ff3910c0499750ceaad3cd</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:00:45</sys_created_on>
+        <sys_id>2f92c75883ff3910c0499750ceaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:00:45</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_5f92cb1883ff3910c0499750ceaad3cd^id=5f92cb1883ff3910c0499750ceaad3cd"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=5f92cb1883ff3910c0499750ceaad3cd"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=5f92cb1883ff3910c0499750ceaad3cd"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=5f92cb1883ff3910c0499750ceaad3cd"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=5f92cb1883ff3910c0499750ceaad3cd^sys_idNOT IN6a23cf5883ff3910c0499750ceaad3e2,6a23cf5883ff3910c0499750ceaad3e5,aa23cf5883ff3910c0499750ceaad3db"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ba4d60a3-dea8-4571-82c6-879b3a1d15ec</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>secret</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>secret</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">5f92cb1883ff3910c0499750ceaad3cd</model>
+        <model_id>5f92cb1883ff3910c0499750ceaad3cd</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_5f92cb1883ff3910c0499750ceaad3cd</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:10</sys_created_on>
+        <sys_id>6a23cf5883ff3910c0499750ceaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0096677d-66c4-4cdc-8cb6-bdb3fd0e73a7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>tenant</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>tenant</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">5f92cb1883ff3910c0499750ceaad3cd</model>
+        <model_id>5f92cb1883ff3910c0499750ceaad3cd</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_5f92cb1883ff3910c0499750ceaad3cd</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:10</sys_created_on>
+        <sys_id>6a23cf5883ff3910c0499750ceaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=83071247-c53c-44ba-9ab7-1336933bb827</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>serviceprincipal</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>serviceprincipal</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">5f92cb1883ff3910c0499750ceaad3cd</model>
+        <model_id>5f92cb1883ff3910c0499750ceaad3cd</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_5f92cb1883ff3910c0499750ceaad3cd</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:09</sys_created_on>
+        <sys_id>aa23cf5883ff3910c0499750ceaad3db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5f92cb1883ff3910c0499750ceaad3cd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_5f92cb1883ff3910c0499750ceaad3cd^sys_idNOT IN2a23cf5883ff3910c0499750ceaad3e1,ae23cf5883ff3910c0499750ceaad3e4,ae23cf5883ff3910c0499750ceaad3e7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>serviceprincipal</element>
+        <help/>
+        <hint/>
+        <label>serviceprincipal</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_5f92cb1883ff3910c0499750ceaad3cd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:10</sys_created_on>
+        <sys_id>2a23cf5883ff3910c0499750ceaad3e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>secret</element>
+        <help/>
+        <hint/>
+        <label>secret</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_5f92cb1883ff3910c0499750ceaad3cd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:10</sys_created_on>
+        <sys_id>ae23cf5883ff3910c0499750ceaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>tenant</element>
+        <help/>
+        <hint/>
+        <label>tenant</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_5f92cb1883ff3910c0499750ceaad3cd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:10</sys_created_on>
+        <sys_id>ae23cf5883ff3910c0499750ceaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Connect Azure">0302c71883ff3910c0499750ceaad31d</action>
+        <cid>467192d3-2141-4c7a-85b5-74ce610b52eb</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>SSH step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:21</sys_created_on>
+        <sys_id>a6b5cf1c83ff3910c0499750ceaad304</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:46:42</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a6b5cf1c83ff3910c0499750ceaad304"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a6b5cf1c83ff3910c0499750ceaad304</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>36b5cf1c83ff3910c0499750ceaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+        <value>512bd9de4753b55078a0cd9fe16d435d</value>
+        <variable display_value="Credential Alias">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a6b5cf1c83ff3910c0499750ceaad304</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>72b5cf1c83ff3910c0499750ceaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+        <value>/home/ubuntu</value>
+        <variable display_value="Working Directory">026edb2473332300673d94596bf6a7c6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a6b5cf1c83ff3910c0499750ceaad304</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>7eb5cf1c83ff3910c0499750ceaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a6b5cf1c83ff3910c0499750ceaad304</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>bab5cf1c83ff3910c0499750ceaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a6b5cf1c83ff3910c0499750ceaad304</document_key>
+        <order>550</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>beb5cf1c83ff3910c0499750ceaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+        <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
+        <variable display_value="Capabilities">37ddd72473332300673d94596bf6a781</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a6b5cf1c83ff3910c0499750ceaad304</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>f6b5cf1c83ff3910c0499750ceaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+        <value>172.31.37.236</value>
+        <variable display_value="Host">952cdbe073332300673d94596bf6a7a7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a6b5cf1c83ff3910c0499750ceaad304</document_key>
+        <order>470</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>fab5cf1c83ff3910c0499750ceaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+        <value>specific_mid_server</value>
+        <variable display_value="MID Selection">25d3c74373531010791f94596bf6a712</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a6b5cf1c83ff3910c0499750ceaad304</document_key>
+        <order>650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:39:05</sys_created_on>
+        <sys_id>fc6b4b1483337910c0499750ceaad3c2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:40:38</sys_updated_on>
+        <value/>
+        <variable display_value="Command">7c1e5b2473332300673d94596bf6a76b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a6b5cf1c83ff3910c0499750ceaad304"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>a6b5cf1c83ff3910c0499750ceaad304</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>f6b5cf1c83ff3910c0499750ceaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>command</field>
+        <id>a6b5cf1c83ff3910c0499750ceaad304</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>7eb5cf1c83ff3910c0499750ceaad314</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:46:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>
+az login --service-principal -u {{step[cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c].serviceprincipal}} -p {{fd_transform:eddd97a0-c65d-46cb-99d0-cfec500c74ef}} --tenant {{fd_transform:5ed62cc1-2405-4d60-8742-3a46b221b50f}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>a6b5cf1c83ff3910c0499750ceaad304</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>b6b5cf1c83ff3910c0499750ceaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>a6b5cf1c83ff3910c0499750ceaad304</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>32b5cf1c83ff3910c0499750ceaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>directory</field>
+        <id>a6b5cf1c83ff3910c0499750ceaad304</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>bab5cf1c83ff3910c0499750ceaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>host</field>
+        <id>a6b5cf1c83ff3910c0499750ceaad304</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>f2b5cf1c83ff3910c0499750ceaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_application</field>
+        <id>a6b5cf1c83ff3910c0499750ceaad304</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>7ab5cf1c83ff3910c0499750ceaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_selection</field>
+        <id>a6b5cf1c83ff3910c0499750ceaad304</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>36b5cf1c83ff3910c0499750ceaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=a6b5cf1c83ff3910c0499750ceaad304"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=a6b5cf1c83ff3910c0499750ceaad304"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=a6b5cf1c83ff3910c0499750ceaad304"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a6b5cf1c83ff3910c0499750ceaad304^sys_idNOT IN36b5cf1c83ff3910c0499750ceaad312,feb5cf1c83ff3910c0499750ceaad312"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>mid_server</input_name>
+        <instance>a6b5cf1c83ff3910c0499750ceaad304</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"mid_server":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nreturn \"62e8599a4753b55078a0cd9fe16d43dc\""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>36b5cf1c83ff3910c0499750ceaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>command</input_name>
+        <instance>a6b5cf1c83ff3910c0499750ceaad304</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"command":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>feb5cf1c83ff3910c0499750ceaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_a6b5cf1c83ff3910c0499750ceaad304"/>
+    <sys_hub_action_input action="delete_multiple" query="model=0302c71883ff3910c0499750ceaad31d"/>
+    <sys_hub_action_output action="delete_multiple" query="model=0302c71883ff3910c0499750ceaad31d^sys_idNOT IN7623cf5883ff3910c0499750ceaad3ee,be23cf5883ff3910c0499750ceaad3f2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=bc48e027-00ac-4a4d-ac1c-eb8350e50ba4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Connect Azure">0302c71883ff3910c0499750ceaad31d</model>
+        <model_id>0302c71883ff3910c0499750ceaad31d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_0302c71883ff3910c0499750ceaad31d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:10</sys_created_on>
+        <sys_id>7623cf5883ff3910c0499750ceaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7623cf5883ff3910c0499750ceaad3ee"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7623cf5883ff3910c0499750ceaad3ee"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=21472e17-3d62-4e1c-9c66-15c6a3b4abca,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Connect Azure">0302c71883ff3910c0499750ceaad31d</model>
+        <model_id>0302c71883ff3910c0499750ceaad31d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_0302c71883ff3910c0499750ceaad31d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:10</sys_created_on>
+        <sys_id>be23cf5883ff3910c0499750ceaad3f2</sys_id>
+        <sys_mod_count>55</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:46:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=be23cf5883ff3910c0499750ceaad3f2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=be23cf5883ff3910c0499750ceaad3f2"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0302c71883ff3910c0499750ceaad31d^sys_idNOT IN23da535883737910c0499750ceaad3f7,2e56d3d083737910c0499750ceaad35b,6a56d3d083737910c0499750ceaad35b,6bda535883737910c0499750ceaad3f6,72b5cf1c83ff3910c0499750ceaad323,a656d3d083737910c0499750ceaad35b,beb5cf1c83ff3910c0499750ceaad322,d2751f5083737910c0499750ceaad395,f2b5cf1c83ff3910c0499750ceaad322,fab5cf1c83ff3910c0499750ceaad322"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0302c71883ff3910c0499750ceaad31d</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>eddd97a0-c65d-46cb-99d0-cfec500c74ef</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 04:46:42</sys_created_on>
+        <sys_id>23da535883737910c0499750ceaad3f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:46:42</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>5b688a7f-ccae-49b8-9b36-cab204633adc</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0302c71883ff3910c0499750ceaad31d</attached_to>
+        <extra_info/>
+        <order>2</order>
+        <prescription/>
+        <source_ui_id>9821384e-c5d5-4928-b2df-72a872401b30</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 04:26:59</sys_created_on>
+        <sys_id>2e56d3d083737910c0499750ceaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:26:59</sys_updated_on>
+        <transform_compositions>[{"id":"23fccf3dc7233300dbf8772bf4c260ac","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="trim">dd9e9d44c7233300dbf8772bf4c2607a</transform_definition_id>
+        <ui_id>d2bee761-159a-47e5-aac5-850be16c9301</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0302c71883ff3910c0499750ceaad31d</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>9821384e-c5d5-4928-b2df-72a872401b30</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 04:26:59</sys_created_on>
+        <sys_id>6a56d3d083737910c0499750ceaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:26:59</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>f80a9667-f3b2-48d4-ad62-e0e09cdeb513</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0302c71883ff3910c0499750ceaad31d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{step[cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c].secret}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 04:46:42</sys_created_on>
+        <sys_id>6bda535883737910c0499750ceaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:46:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>eddd97a0-c65d-46cb-99d0-cfec500c74ef</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0302c71883ff3910c0499750ceaad31d</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>fe2567c2-c8ed-475f-a1ad-a7370b3bd3b7</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>72b5cf1c83ff3910c0499750ceaad323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>3566bbc0-4479-4c8a-90a9-5e1775104882</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0302c71883ff3910c0499750ceaad31d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{step[cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c].secret}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 04:26:59</sys_created_on>
+        <sys_id>a656d3d083737910c0499750ceaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:26:59</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>9821384e-c5d5-4928-b2df-72a872401b30</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0302c71883ff3910c0499750ceaad31d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{step[cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c].tenant}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>beb5cf1c83ff3910c0499750ceaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fe2567c2-c8ed-475f-a1ad-a7370b3bd3b7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0302c71883ff3910c0499750ceaad31d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{step[cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c].tenant}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 04:23:09</sys_created_on>
+        <sys_id>d2751f5083737910c0499750ceaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:23:09</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5ed62cc1-2405-4d60-8742-3a46b221b50f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0302c71883ff3910c0499750ceaad31d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{step[cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c].secret}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>f2b5cf1c83ff3910c0499750ceaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>51ec68b3-932e-482b-8347-76306e8d3886</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0302c71883ff3910c0499750ceaad31d</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>51ec68b3-932e-482b-8347-76306e8d3886</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:22</sys_created_on>
+        <sys_id>fab5cf1c83ff3910c0499750ceaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:22</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>4f280c85-cbe7-434f-840b-920fd238c056</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=0302c71883ff3910c0499750ceaad31d^sys_idNOT IN2392c75883ff3910c0499750ceaad317"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Connect Azure">0302c71883ff3910c0499750ceaad31d</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:00:45</sys_created_on>
+        <sys_id>2392c75883ff3910c0499750ceaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:00:45</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=2392c75883ff3910c0499750ceaad317"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_0302c71883ff3910c0499750ceaad31d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_0302c71883ff3910c0499750ceaad31d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_0302c71883ff3910c0499750ceaad31d^sys_idNOT IN3a23cf5883ff3910c0499750ceaad3f7,f223cf5883ff3910c0499750ceaad3f2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0302c71883ff3910c0499750ceaad31d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:10</sys_created_on>
+        <sys_id>3a23cf5883ff3910c0499750ceaad3f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0302c71883ff3910c0499750ceaad31d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:10</sys_created_on>
+        <sys_id>f223cf5883ff3910c0499750ceaad3f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_0302c71883ff3910c0499750ceaad31d"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=0302c71883ff3910c0499750ceaad31d^sys_idNOT IN9733439883ff3910c0499750ceaad3f8"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Connect Azure">0302c71883ff3910c0499750ceaad31d</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"9733439883ff3910c0499750ceaad3f8","name":"plan","plan_signature":null}}</plan>
+        <snapshot>29ead35883737910c0499750ceaad370</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9733439883ff3910c0499750ceaad3f8</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:46:52</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>connect_azure</internal_name>
+        <label_cache>[{"name":"{{step[cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c].serviceprincipal}}","label":"step➛Script step➛serviceprincipal","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"83071247-c53c-44ba-9ab7-1336933bb827"}},{"name":"{{step[cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c].secret}}","label":"step➛Script step➛secret","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ba4d60a3-dea8-4571-82c6-879b3a1d15ec"}},{"name":"{{step[cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c].tenant}}","label":"step➛Script step➛tenant","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"0096677d-66c4-4cdc-8cb6-bdb3fd0e73a7"}}]</label_cache>
+        <master>true</master>
+        <name>Connect Azure</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Connect Azure">0302c71883ff3910c0499750ceaad31d</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8b33439883ff3910c0499750ceaad37e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=8b33439883ff3910c0499750ceaad37e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8b33439883ff3910c0499750ceaad37e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>8b33439883ff3910c0499750ceaad37e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:28</sys_created_on>
+        <sys_id>9b33439883ff3910c0499750ceaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:28</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">1b33439883ff3910c0499750ceaad3a2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>8b33439883ff3910c0499750ceaad37e</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:28</sys_created_on>
+        <sys_id>d733439883ff3910c0499750ceaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:28</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">9b33439883ff3910c0499750ceaad3a6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_8b33439883ff3910c0499750ceaad37e^id=8b33439883ff3910c0499750ceaad37e"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=8b33439883ff3910c0499750ceaad37e^sys_idNOT INb0c5035c83ff3910c0499750ceaad36e,cf33439883ff3910c0499750ceaad382"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Connect Azure">8b33439883ff3910c0499750ceaad37e</action>
+        <cid>467192d3-2141-4c7a-85b5-74ce610b52eb</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>SSH step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>b0c5035c83ff3910c0499750ceaad36e</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:46:51</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b0c5035c83ff3910c0499750ceaad36e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b0c5035c83ff3910c0499750ceaad36e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>38c5035c83ff3910c0499750ceaad378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b0c5035c83ff3910c0499750ceaad36e</document_key>
+        <order>550</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>3cc5035c83ff3910c0499750ceaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
+        <variable display_value="Capabilities">37ddd72473332300673d94596bf6a781</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b0c5035c83ff3910c0499750ceaad36e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>74c5035c83ff3910c0499750ceaad378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <value>172.31.37.236</value>
+        <variable display_value="Host">952cdbe073332300673d94596bf6a7a7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b0c5035c83ff3910c0499750ceaad36e</document_key>
+        <order>470</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>78c5035c83ff3910c0499750ceaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <value>specific_mid_server</value>
+        <variable display_value="MID Selection">25d3c74373531010791f94596bf6a712</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b0c5035c83ff3910c0499750ceaad36e</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>b0c5035c83ff3910c0499750ceaad378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <value>512bd9de4753b55078a0cd9fe16d435d</value>
+        <variable display_value="Credential Alias">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b0c5035c83ff3910c0499750ceaad36e</document_key>
+        <order>650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:39:14</sys_created_on>
+        <sys_id>c36bcb1483337910c0499750ceaad338</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:40:50</sys_updated_on>
+        <value/>
+        <variable display_value="Command">7c1e5b2473332300673d94596bf6a76b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b0c5035c83ff3910c0499750ceaad36e</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>f8c5035c83ff3910c0499750ceaad378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b0c5035c83ff3910c0499750ceaad36e</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>fcc5035c83ff3910c0499750ceaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <value>/home/ubuntu</value>
+        <variable display_value="Working Directory">026edb2473332300673d94596bf6a7c6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b0c5035c83ff3910c0499750ceaad36e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>b0c5035c83ff3910c0499750ceaad36e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>74c5035c83ff3910c0499750ceaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>command</field>
+        <id>b0c5035c83ff3910c0499750ceaad36e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>f8c5035c83ff3910c0499750ceaad376</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:46:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>
+az login --service-principal -u {{step[cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c].serviceprincipal}} -p {{fd_transform:eddd97a0-c65d-46cb-99d0-cfec500c74ef}} --tenant {{fd_transform:5ed62cc1-2405-4d60-8742-3a46b221b50f}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>b0c5035c83ff3910c0499750ceaad36e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>34c5035c83ff3910c0499750ceaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>b0c5035c83ff3910c0499750ceaad36e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>bcc5035c83ff3910c0499750ceaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>directory</field>
+        <id>b0c5035c83ff3910c0499750ceaad36e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>38c5035c83ff3910c0499750ceaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>host</field>
+        <id>b0c5035c83ff3910c0499750ceaad36e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>70c5035c83ff3910c0499750ceaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_application</field>
+        <id>b0c5035c83ff3910c0499750ceaad36e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>f4c5035c83ff3910c0499750ceaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_selection</field>
+        <id>b0c5035c83ff3910c0499750ceaad36e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>b0c5035c83ff3910c0499750ceaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=b0c5035c83ff3910c0499750ceaad36e"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=b0c5035c83ff3910c0499750ceaad36e"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=b0c5035c83ff3910c0499750ceaad36e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b0c5035c83ff3910c0499750ceaad36e^sys_idNOT IN74c5035c83ff3910c0499750ceaad375,fcc5035c83ff3910c0499750ceaad374"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>command</input_name>
+        <instance>b0c5035c83ff3910c0499750ceaad36e</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"command":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>74c5035c83ff3910c0499750ceaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>mid_server</input_name>
+        <instance>b0c5035c83ff3910c0499750ceaad36e</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"mid_server":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nreturn \"62e8599a4753b55078a0cd9fe16d43dc\""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>fcc5035c83ff3910c0499750ceaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_b0c5035c83ff3910c0499750ceaad36e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Connect Azure">8b33439883ff3910c0499750ceaad37e</action>
+        <cid>cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:28</sys_created_on>
+        <sys_id>cf33439883ff3910c0499750ceaad382</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cf33439883ff3910c0499750ceaad382"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf33439883ff3910c0499750ceaad382</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:28</sys_created_on>
+        <sys_id>1f33439883ff3910c0499750ceaad39f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+  &#13;
+&#13;
+  outputs.serviceprincipal= gs.getProperty("x_1136210_new_ye_0.az.serviceprincipal");&#13;
+  outputs.secret= gs.getProperty("x_1136210_new_ye_0.az.secret");&#13;
+  outputs.tenant= gs.getProperty("x_1136210_new_ye_0.az.tenant");&#13;
+&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf33439883ff3910c0499750ceaad382</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:28</sys_created_on>
+        <sys_id>5b33439883ff3910c0499750ceaad39f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:28</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_cf33439883ff3910c0499750ceaad382^id=cf33439883ff3910c0499750ceaad382"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=cf33439883ff3910c0499750ceaad382"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=cf33439883ff3910c0499750ceaad382"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=cf33439883ff3910c0499750ceaad382"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=cf33439883ff3910c0499750ceaad382^sys_idNOT IN0733439883ff3910c0499750ceaad393,df33439883ff3910c0499750ceaad396,df33439883ff3910c0499750ceaad399"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=83071247-c53c-44ba-9ab7-1336933bb827</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>serviceprincipal</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>serviceprincipal</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">cf33439883ff3910c0499750ceaad382</model>
+        <model_id>cf33439883ff3910c0499750ceaad382</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_cf33439883ff3910c0499750ceaad382</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:28</sys_created_on>
+        <sys_id>0733439883ff3910c0499750ceaad393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ba4d60a3-dea8-4571-82c6-879b3a1d15ec</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>secret</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>secret</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">cf33439883ff3910c0499750ceaad382</model>
+        <model_id>cf33439883ff3910c0499750ceaad382</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_cf33439883ff3910c0499750ceaad382</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:28</sys_created_on>
+        <sys_id>df33439883ff3910c0499750ceaad396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0096677d-66c4-4cdc-8cb6-bdb3fd0e73a7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>tenant</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>tenant</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">cf33439883ff3910c0499750ceaad382</model>
+        <model_id>cf33439883ff3910c0499750ceaad382</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_cf33439883ff3910c0499750ceaad382</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:28</sys_created_on>
+        <sys_id>df33439883ff3910c0499750ceaad399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cf33439883ff3910c0499750ceaad382"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_cf33439883ff3910c0499750ceaad382^sys_idNOT IN1733439883ff3910c0499750ceaad396,1733439883ff3910c0499750ceaad399,1733439883ff3910c0499750ceaad39c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>serviceprincipal</element>
+        <help/>
+        <hint/>
+        <label>serviceprincipal</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_cf33439883ff3910c0499750ceaad382</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:28</sys_created_on>
+        <sys_id>1733439883ff3910c0499750ceaad396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>secret</element>
+        <help/>
+        <hint/>
+        <label>secret</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_cf33439883ff3910c0499750ceaad382</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:28</sys_created_on>
+        <sys_id>1733439883ff3910c0499750ceaad399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>tenant</element>
+        <help/>
+        <hint/>
+        <label>tenant</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_cf33439883ff3910c0499750ceaad382</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:28</sys_created_on>
+        <sys_id>1733439883ff3910c0499750ceaad39c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=8b33439883ff3910c0499750ceaad37e"/>
+    <sys_hub_action_output action="delete_multiple" query="model=8b33439883ff3910c0499750ceaad37e^sys_idNOT IN1b33439883ff3910c0499750ceaad3a2,9b33439883ff3910c0499750ceaad3a6"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=bc48e027-00ac-4a4d-ac1c-eb8350e50ba4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Connect Azure">8b33439883ff3910c0499750ceaad37e</model>
+        <model_id>8b33439883ff3910c0499750ceaad37e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_8b33439883ff3910c0499750ceaad37e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:28</sys_created_on>
+        <sys_id>1b33439883ff3910c0499750ceaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1b33439883ff3910c0499750ceaad3a2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1b33439883ff3910c0499750ceaad3a2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=21472e17-3d62-4e1c-9c66-15c6a3b4abca,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Connect Azure">8b33439883ff3910c0499750ceaad37e</model>
+        <model_id>8b33439883ff3910c0499750ceaad37e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_8b33439883ff3910c0499750ceaad37e</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:28</sys_created_on>
+        <sys_id>9b33439883ff3910c0499750ceaad3a6</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:46:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9b33439883ff3910c0499750ceaad3a6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9b33439883ff3910c0499750ceaad3a6"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8b33439883ff3910c0499750ceaad37e^sys_idNOT IN206617d083737910c0499750ceaad3d9,30c5035c83ff3910c0499750ceaad384,7cc5035c83ff3910c0499750ceaad383,a86617d083737910c0499750ceaad3d9,adead35883737910c0499750ceaad36f,b8c5035c83ff3910c0499750ceaad383,d0855f5083737910c0499750ceaad3ff,e06617d083737910c0499750ceaad3d9,e5ead35883737910c0499750ceaad36f,f4c5035c83ff3910c0499750ceaad383"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8b33439883ff3910c0499750ceaad37e</attached_to>
+        <extra_info/>
+        <order>2</order>
+        <prescription/>
+        <source_ui_id>9821384e-c5d5-4928-b2df-72a872401b30</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 04:27:07</sys_created_on>
+        <sys_id>206617d083737910c0499750ceaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:27:07</sys_updated_on>
+        <transform_compositions>[{"id":"23fccf3dc7233300dbf8772bf4c260ac","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="trim">dd9e9d44c7233300dbf8772bf4c2607a</transform_definition_id>
+        <ui_id>d2bee761-159a-47e5-aac5-850be16c9301</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8b33439883ff3910c0499750ceaad37e</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{step[cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c].secret}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>30c5035c83ff3910c0499750ceaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>51ec68b3-932e-482b-8347-76306e8d3886</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8b33439883ff3910c0499750ceaad37e</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>51ec68b3-932e-482b-8347-76306e8d3886</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>7cc5035c83ff3910c0499750ceaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>4f280c85-cbe7-434f-840b-920fd238c056</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8b33439883ff3910c0499750ceaad37e</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{step[cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c].secret}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 04:27:07</sys_created_on>
+        <sys_id>a86617d083737910c0499750ceaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:27:07</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>9821384e-c5d5-4928-b2df-72a872401b30</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8b33439883ff3910c0499750ceaad37e</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{step[cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c].secret}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 04:46:51</sys_created_on>
+        <sys_id>adead35883737910c0499750ceaad36f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:46:51</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>eddd97a0-c65d-46cb-99d0-cfec500c74ef</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8b33439883ff3910c0499750ceaad37e</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>fe2567c2-c8ed-475f-a1ad-a7370b3bd3b7</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>b8c5035c83ff3910c0499750ceaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>3566bbc0-4479-4c8a-90a9-5e1775104882</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8b33439883ff3910c0499750ceaad37e</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{step[cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c].tenant}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 04:23:17</sys_created_on>
+        <sys_id>d0855f5083737910c0499750ceaad3ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:23:17</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5ed62cc1-2405-4d60-8742-3a46b221b50f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8b33439883ff3910c0499750ceaad37e</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>9821384e-c5d5-4928-b2df-72a872401b30</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 04:27:07</sys_created_on>
+        <sys_id>e06617d083737910c0499750ceaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:27:07</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>f80a9667-f3b2-48d4-ad62-e0e09cdeb513</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8b33439883ff3910c0499750ceaad37e</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>eddd97a0-c65d-46cb-99d0-cfec500c74ef</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 04:46:51</sys_created_on>
+        <sys_id>e5ead35883737910c0499750ceaad36f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 04:46:51</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>5b688a7f-ccae-49b8-9b36-cab204633adc</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8b33439883ff3910c0499750ceaad37e</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{step[cde7d1e5-a82a-44e4-8f09-a6c4dee4d57c].tenant}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:14:30</sys_created_on>
+        <sys_id>f4c5035c83ff3910c0499750ceaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:14:30</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fe2567c2-c8ed-475f-a1ad-a7370b3bd3b7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=8b33439883ff3910c0499750ceaad37e^sys_idNOT INd733439883ff3910c0499750ceaad3af"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Connect Azure">8b33439883ff3910c0499750ceaad37e</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:28</sys_created_on>
+        <sys_id>d733439883ff3910c0499750ceaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:28</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=d733439883ff3910c0499750ceaad3af"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_8b33439883ff3910c0499750ceaad37e"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_8b33439883ff3910c0499750ceaad37e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_8b33439883ff3910c0499750ceaad37e^sys_idNOT IN5f33439883ff3910c0499750ceaad3aa,df33439883ff3910c0499750ceaad3a5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_8b33439883ff3910c0499750ceaad37e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:28</sys_created_on>
+        <sys_id>5f33439883ff3910c0499750ceaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_8b33439883ff3910c0499750ceaad37e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-14 03:03:28</sys_created_on>
+        <sys_id>df33439883ff3910c0499750ceaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-14 03:03:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_8b33439883ff3910c0499750ceaad37e"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>0302c71883ff3910c0499750ceaad31d</sys_id>
+        <latest_snapshot>8b33439883ff3910c0499750ceaad37e</latest_snapshot>
+        <compiler_build>glide-utah-12-21-2022__patch7a-09-28-2023_10-10-2023_1258.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

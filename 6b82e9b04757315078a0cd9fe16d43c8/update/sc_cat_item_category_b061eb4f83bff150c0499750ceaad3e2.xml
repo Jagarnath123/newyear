@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Upload my Instagram Profile">e5c06f0f83bff150c0499750ceaad3e9</sc_cat_item>
+        <sc_category display_value="Quick Links">91a9e0510a0a3c7401d20d86782fc9a0</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 18:18:30</sys_created_on>
+        <sys_id>b061eb4f83bff150c0499750ceaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Quick Links.Upload my Instagram Profile</sys_name>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>sc_cat_item_category_b061eb4f83bff150c0499750ceaad3e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 18:18:30</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

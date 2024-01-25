@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	  this.inputAsString="";
+	this.outputAsString="";
+	c.tables=["incident"];
+	
+	var serviceNowData=[
+		{"createIncidentFields":[{"label":"Short Description:","id":"short-desc-input",},{"label":"Description:","id":"long-desc"},{"label":"Category:","id":"category"},{	"label":"SubCategory:","id":"subcategory"}]
+		}
+		 
+		 ];
+	
+
+	var count=0;
+
+	
+	
+	var fields=[];
+	
+	var consoleInput = document.querySelector(".console-input");
+	var historyContainer = document.querySelector(".console-history");
+	var inputContainer = document.querySelector(".console-input-input");
+	var inputDetails = document.querySelector(".console-input-create-details");
+	
+	function addResult(inputAsString, output) {
+		this.inputAsString=inputAsString;
+		var outputAsString =
+    output instanceof Array ? [output.join(", ")] : output.toString();
+		
+		var inputLogElement=createInputDiv();
+		
+ 
+		
+		if(inputAsString=="clear"){
+			deleteChild(".console-history")
+		}
+		
+		else if(inputAsString=="snc:create_incident" || inputAsString=="snc:update_incident" || inputAsString=="snc:delete_incident"){
+		
+		
+	  consoleInput.style.visibility = 'hidden';
+		var questionsDiv;
+
+		if(inputAsString=="snc:create_incident"){
+		questionsDiv=createInputTextDiv(createIncidentFields[count].label,createIncidentFields[count].id);
+		}
+			
+		if(inputAsString=="snc:update_incident"){
+		questionsDiv=createInputTextDiv("Number:","number-input","number");
+		}
+				
+		inputDetails.append(questionsDiv);
+			
+		historyContainer.append(inputLogElement,inputDetails);
+		if(inputAsString=="snc:create_incident"){	
+		document.getElementById("short-desc-input").focus();
+		}
+		if(inputAsString=="snc:update_incident"){	
+		document.getElementById("number-input").focus();
+		}
+						
+		}
+		
+		
+	else{
+	  //var inputLogElement=createInputDiv();
+   var outputLogElement = document.createElement("div");
+
+    outputLogElement.classList.add("console-output-log");
+    outputLogElement.textContent = outputAsString;
+		
+		historyContainer.append(inputLogElement, outputLogElement);
+		
+	}	
+			
+	}
+	
+	 function deleteChild(history) {
+        let e=document.querySelector(history);
+        e.innerHTML = "";
+    }
+	
+	function createInputDiv(){
+		
+		var inputLogElement = document.createElement("div");
+		inputLogElement.classList.add("console-input-log");
+		
+		var inputLogOuterSpanElement = document.createElement("span");
+		inputLogOuterSpanElement.classList.add("input-span");
+		inputLogOuterSpanElement.textContent=c.data.loggedIn;
+		//inputLogElement.append(inputLogOuterSpanElement);
+		
+		var inputLogInnerSpanElement = document.createElement("span");
+		inputLogInnerSpanElement.classList.add("output-span");
+		inputLogInnerSpanElement.textContent=this.inputAsString;
+		
+		inputLogElement.append(inputLogOuterSpanElement,inputLogInnerSpanElement);
+		
+		return inputLogElement;
+		
+	}
+	
+	
+	function createInputTextDiv(text,id,value){
+		
+		if(count < createIncidentFields.length){
+		
+		var inpuShortDesc = document.createElement("div");
+		inpuShortDesc.classList.add("input-short-desc");
+		inpuShortDesc.textContent=text;
+			
+		var inputShortDescText = document.createElement("span");
+		var inputShort = document.createElement("input");
+		inputShort.setAttribute("id", id);
+		inputShort.addEventListener("keyup", checkInput.bind(null, ""));
+		inputShort.classList.add("console-input-input");
+		inputShort.type = 'textbox';
+			
+
+		inputShortDescText.append(inputShort);
+		inpuShortDesc.append(inputShortDescText);
+		
+	   
+		count++;
+		
+	//	document.getElementById(id).focus();
+		
+		return inpuShortDesc;
+		}
+		
+	}
+	
+ consoleInput.addEventListener("keyup", (e) => {
+	 var  code = consoleInput.value.trim();
+	 
+	  if (code.length === 0) {
+    return;
+  }
+	 
+	 if (e.key === "Enter") {
+		 
+		  try {
+      addResult(code, eval(code));
+    } 
+		 catch (err) {
+      addResult(code, err);
+    }
+		 consoleInput.value = "";
+		historyContainer.scrollTop = historyContainer.scrollHeight;
+		 
+	 }
+	});	
+	
+function checkInput(){
+	
+	
+if(inputAsString=="snc:create_incident"){
+	var event = window.event || event.which;
+    if (event.keyCode == 13) {
+			
+       
+			if(count < createIncidentFields.length){
+			var inputShortDiv=createInputTextDiv(createIncidentFields[count].label,createIncidentFields[count].id);
+			inputDetails.append(inputShortDiv);
+			historyContainer.append(inputDetails);
+			document.getElementById(createIncidentFields[count-1].id).focus();
+			}
+			
+			/*else if(fields.length == 2){
+			
+			var inputCategorytDiv=createInputTextDiv("Category: ","category","category");
+				//fields.push("category");
+				
+			inputDetails.append(inputCategorytDiv);
+			historyContainer.append(inputDetails);
+			document.getElementById("category").focus();
+			}
+			
+			else if(fields.length == 3){
+			
+				var inputSubCatDiv=createInputTextDiv("SubCategory: ","subcategory","subcategory");
+			
+			inputDetails.append(inputSubCatDiv);
+			historyContainer.append(inputDetails);
+			document.getElementById("subcategory").focus();
+			}*/
+			
+			else if(count == createIncidentFields.length ){
+			var short_description=document.getElementById("short-desc-input").value;
+			var description=document.getElementById("long-desc").value;
+			fields.length=0;
+			
+				c.server.get({
+        short_description: short_description,
+				description: description,
+        action: "createIncident"
+       }).then(function(response) {
+					
+					var outputLogElement = document.createElement("div");
+
+    outputLogElement.classList.add("console-output-log");
+    outputLogElement.textContent = response.data.outputMsg;
+		
+		historyContainer.append(outputLogElement);
+		consoleInput.style.visibility = 'visible';	
+			
+				
+			document.getElementById("console-input").focus();
+
+});	
+			}
+		}		
+}
+	
+}
+	
+	
+																
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+}
+
+.console * {
+  font-family: monospace;
+}
+
+.console {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #111111;
+  
+}
+
+.console-history {
+  flex-grow: 1;
+  box-sizing: border-box;
+  padding: 24px;
+  overflow-y: auto;
+  
+  
+}
+
+.console-input-log,
+.console-output-log {
+  box-sizing: border-box;
+  padding: 6px 12px;
+}
+
+.console-input-log:hover,
+.console-output-log:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.console-input-log {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.console-input-create-details{
+  
+  margin-left: 12px
+}
+
+.input-short-desc{
+  color: #0000FF;
+  
+ 
+  
+}
+.input-span{
+  color: #00FF00;
+}
+
+.console-output-log {
+  color: #00ffcc;
+}
+
+.console-input-input{
+  border: none;
+  outline: none;
+  resize: none;
+  margin: 0px 0px 10px 10px;
+  width: 50%;
+   background-color: #111111;
+  color: #ff0000;
+   overflow: hidden;
+}
+
+.console-input {
+  flex-shrink: 1;
+  box-sizing: border-box;
+  padding: 12px;
+  outline: none;
+  border: none;
+  border-top: 1px solid #333333;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.05);
+  transition: background 0.2s;
+  
+}
+
+.console-input:hover,
+.console-input:focus {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.console-input-input:focus {
+   /*color: transparent;
+    text-shadow: 0px 0px 0px #666;*/
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>console</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Console</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+    data.loggedIn=gs.getUserName()+"@" + gs.getProperty("instance_name")+":~$ "
+	;
+	if (input && input.action=="createIncident") {
+		//gs.addInfoMessage(input.short_description)
+		
+		
+var inc = new GlideRecord("incident");
+inc.initialize();
+inc.setValue("short_description",input.short_description);
+inc.setValue("description",input.description);
+inc.setValue("caller_id",gs.getUserID());
+var id=inc.insert();
+		
+var queryInc=new GlideRecord("incident");
+
+if(queryInc.get(id)){
+	data.outputMsg = "Incident " +queryInc.number + " is created";
+	
+}
+
+	}
+	  
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-26 17:35:46</sys_created_on>
+        <sys_id>eca450e683573110c0499750ceaad33c</sys_id>
+        <sys_mod_count>242</sys_mod_count>
+        <sys_name>Console</sys_name>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>sp_widget_eca450e683573110c0499750ceaad33c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-09 11:33:45</sys_updated_on>
+        <template><![CDATA[<div class="console">
+  
+  <div class="console-history">
+    
+   <div class="console-input-create-details">
+     
+     
+    </div>
+ 
+    
+  <!--<div class="console-input-log">1 + 2 + 3</div>
+  <div class="console-output-log">6</div>
+    <div class="console-input-create-details">
+      
+      <div class="console-create-input">
+        Enter Short Description:
+        
+        <input class="inp" type="text" id="short_desc">
+      </div>
+      
+      <div class="console-create-input">
+        Enter Description:
+        <input class="inp" type="text" id="long_desc">
+      </div>
+    
+    </div>-->
+  
+  </div>
+
+<input id="console-input" class="console-input" type="text" autofocus spellcheck="false">
+</div>]]></template>
+    </sp_widget>
+</record_update>

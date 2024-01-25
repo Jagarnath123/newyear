@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <grant_type>authorization_code</grant_type>
+        <jwt_provider/>
+        <name>ServiceNow Consumer default_profile</name>
+        <oauth_entity display_value="ServiceNow Consumer">255a7ea683537110c0499750ceaad310</oauth_entity>
+        <saml2_assertion_producer/>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 05:43:09</sys_created_on>
+        <sys_id>7a2bfee683537110c0499750ceaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ServiceNow Consumer default_profile</sys_name>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>oauth_entity_profile_7a2bfee683537110c0499750ceaad303</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 05:43:09</sys_updated_on>
+    </oauth_entity_profile>
+</record_update>

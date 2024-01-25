@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="reject">d1e2e1f054573150073c5e12ead9d2e3</declarative_action_assignment>
+        <predicate display_value="My tasks requested item">11e2e1f0c25731503ba4ec107c78f9bb</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-21 12:48:08</sys_created_on>
+        <sys_id>59e2e1f01d573150fa848d009085aab2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_59e2e1f01d573150fa848d009085aab2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-21 12:48:08</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

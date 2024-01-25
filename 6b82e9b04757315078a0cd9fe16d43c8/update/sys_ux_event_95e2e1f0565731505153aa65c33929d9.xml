@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>MY_TASKS_REJECT</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>My tasks reject</label>
+        <props>[{"name":"sysId","fieldType":"string","label":"Sys ID","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"table","fieldType":"string","label":"Table","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false}]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-21 12:48:10</sys_created_on>
+        <sys_id>95e2e1f0565731505153aa65c33929d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My tasks reject</sys_name>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>sys_ux_event_95e2e1f0565731505153aa65c33929d9</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-21 12:48:10</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=95e2e1f0565731505153aa65c33929d9"/>
+</record_update>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="Test Video">c24fc6eb836f7510c0499750ceaad35a</cb_topic_id>
+        <channels/>
+        <definition>{"id":"c24fc6eb836f7510c0499750ceaad35a","name":"Test Video","system_topic":false,"autopilot_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Test Video","applicability":"true","categories":[],"key_phrases":["Test Video"],"variables":[{"name":"__segment_trigger_1af1d50af59f4e339495fda57882bda9_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_833112b0b9bfb9109db4779a821f11f1","unique":false,"default_value":"true","key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_5e923adf2c024344b4afa31015694fd9","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_Decision_RootDecision_033112b0d5bfb9107be806b39963faf1","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_TerminateGoal_c152447920894872a2a4a885cdd9701d","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_ImageOutputPrompt_e1060d1ac65440aa931a1c2dca9c02b6","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_Branch_RootDecisionBranch_433112b03dbfb910b2ea413e5f7365f1","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_1af1d50af59f4e339495fda57882bda9_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_833112b0b9bfb9109db4779a821f11f1\");vaInputs.initialize(\"__silent_Decision_RootDecision_033112b0d5bfb9107be806b39963faf1\");vaInputs.initialize(\"__silent_TerminateGoal_c152447920894872a2a4a885cdd9701d\");vaInputs.initialize(\"__silent_ImageOutputPrompt_e1060d1ac65440aa931a1c2dca9c02b6\");vaInputs.initialize(\"__silent_StartGoal_5e923adf2c024344b4afa31015694fd9\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_433112b03dbfb910b2ea413e5f7365f1\");null;","fields":[{"name":"__silent_Decision_RootDecision_033112b0d5bfb9107be806b39963faf1","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_033112b0d5bfb9107be806b39963faf1\";vaInputs.__silent_Decision_RootDecision_033112b0d5bfb9107be806b39963faf1=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_033112b0d5bfb9107be806b39963faf1\";var ackMsg=null;ackMsg=null;vaInputs.RootDecisionBranch_833112b0b9bfb9109db4779a821f11f1=true;ackMsg;"},{"name":"__silent_Branch_RootDecisionBranch_433112b03dbfb910b2ea413e5f7365f1","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_033112b0d5bfb9107be806b39963faf1\" &amp;&amp; ((vaInputs.RootDecisionBranch_833112b0b9bfb9109db4779a821f11f1.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_433112b03dbfb910b2ea413e5f7365f1___RootDecisionBranch_433112b03dbfb910b2ea413e5f7365f1\";vaInputs.__silent_Branch_RootDecisionBranch_433112b03dbfb910b2ea413e5f7365f1=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_433112b03dbfb910b2ea413e5f7365f1___RootDecisionBranch_433112b03dbfb910b2ea413e5f7365f1\";var ackMsg=null;ackMsg=null;ackMsg;"},{"name":"__silent_StartGoal_5e923adf2c024344b4afa31015694fd9","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_433112b03dbfb910b2ea413e5f7365f1___RootDecisionBranch_433112b03dbfb910b2ea413e5f7365f1\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___5e923adf2c024344b4afa31015694fd9\";vaInputs.__silent_StartGoal_5e923adf2c024344b4afa31015694fd9=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___5e923adf2c024344b4afa31015694fd9\";var ackMsg=null;ackMsg=null;ackMsg;"},{"name":"__silent_ImageOutputPrompt_e1060d1ac65440aa931a1c2dca9c02b6","applicable":"vaVars.previous_graph_node==\"Start___5e923adf2c024344b4afa31015694fd9\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"image___e1060d1ac65440aa931a1c2dca9c02b6\";vaInputs.__silent_ImageOutputPrompt_e1060d1ac65440aa931a1c2dca9c02b6=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"image___e1060d1ac65440aa931a1c2dca9c02b6\";var ackMsg=null;ackMsg=(function execute() {var url=\"https://dev224588.service-now.com/random.jpg\";var altText=\"\";return (function execute() {if (gs.nil(url)) return;var outMsg = new sn_cs.SinglePartOutMsg();outMsg.setImagePart(url, altText);return outMsg;})();})();ackMsg;"},{"name":"__silent_TerminateGoal_c152447920894872a2a4a885cdd9701d","applicable":"vaVars.previous_graph_node==\"image___e1060d1ac65440aa931a1c2dca9c02b6\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___c152447920894872a2a4a885cdd9701d\";vaInputs.__silent_TerminateGoal_c152447920894872a2a4a885cdd9701d=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___c152447920894872a2a4a885cdd9701d\";var ackMsg=null;ackMsg=null;vaVars.__segment_trigger_1af1d50af59f4e339495fda57882bda9_done=true;ackMsg;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"expose_on_palette":false,"palette_label":"","flexible_conversation_switching":false,"design_categories":[],"nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"triggerable_by_notification":false,"secure_custom_input_control":false,"score":0.0,"visible":true,"discoverable":true,"sys_scope":"6b82e9b04757315078a0cd9fe16d43c8","sys_domain":"global","title":"Test Video","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category/>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Test Video</key_phrases>
+        <last_published_on>2024-01-15 12:41:58</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone/>
+        <name>Test Video</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 15:13:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3db0a05c83773910c0499750ceaad352</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Test Video</sys_name>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>sys_cs_topic_3db0a05c83773910c0499750ceaad352</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 12:41:58</sys_updated_on>
+        <title>Test Video</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=3db0a05c83773910c0499750ceaad352"/>
+</record_update>

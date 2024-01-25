@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="ServiceNow IP address">bfd34aab836f7510c0499750ceaad396</compiled_topic>
+        <design_definition>{"type":"FlowTopic","type":"FlowTopic","triggers":[{"type":"Trigger","name":"3e56ada1c9bd424dbccc2d5a38f5419a","triggerType":"request","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"id":"3e56ada1c9bd424dbccc2d5a38f5419a"}],"goals":[{"name":"primary","trigger_id":"3e56ada1c9bd424dbccc2d5a38f5419a","nodes":[{"type":"StartGoal","type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"e055ddbfebd544dc96a4a358e605e6c7","name":"Start"},{"type":"TerminateGoal","type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"a35fbc5b4fd840ec8db8cd3f8c5c6184","name":"End"},{"type":"TextOutputPrompt","type":"TextOutputPrompt","value":[{"type":"String","type":"String","mode":"script","value":"(function execute() {\n    /* Return a quoted string.  For example:\n\n       if (vaInputs.first_name == 'Bill') {\n           return gs.getMessageLang(\"hi there {0}\", vaContext.getRequesterLang(), [vaInputs.first_name]);\n       } else {\n           return gs.getMessageLang(\"how are you {0}\", vaContext.getRequesterLang(), [vaInputs.last_name]);\n       }\n    */\n    return vaInputs.details;\n})()\n"}],"id":"9e522b2ee6f64892907325e2c526faee","name":"IP Value","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"secure":false},{"type":"FDIHInvocation","type":"FDIHInvocation","name":"IP Address","kind":"action","mode":"sync","inputs":[],"outputs":[{"name":"details","order":0,"value":[],"is_list_data_entry":false,"topicVariableName":"details"},{"name":"__action_status__","order":0,"value":[],"is_list_data_entry":false,"topicVariableName":"action_status"},{"name":"__dont_treat_as_error__","order":0,"value":[],"is_list_data_entry":false,"topicVariableName":"don_t_treat_as_error"}],"metadata":{"runAs":"session_user"},"id":"3a6aa3b7ff1c4657b601bdb885d8cbd5","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"sys_id":"a68935af832f7510c0499750ceaad33a","scope":"6b82e9b04757315078a0cd9fe16d43c8"}],"edges":[{"type":"Edge","source_node_id":"9e522b2ee6f64892907325e2c526faee","target_node_id":"a35fbc5b4fd840ec8db8cd3f8c5c6184","id":"371cacc0953f488cb179b9651851a296"},{"type":"Edge","source_node_id":"e055ddbfebd544dc96a4a358e605e6c7","target_node_id":"3a6aa3b7ff1c4657b601bdb885d8cbd5","id":"987ef7ce05204a7782cc25597e33deaa"},{"type":"Edge","source_node_id":"3a6aa3b7ff1c4657b601bdb885d8cbd5","target_node_id":"9e522b2ee6f64892907325e2c526faee","id":"30855634fcbc4c46bbe76354644f415d"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false},{"type":"VariableDto","type":"String","name":"details","list":false,"id":"94004f37725f4fb68ffd15f99ee5ae5f","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false},{"type":"VariableDto","type":"String","name":"action_status","list":false,"id":"da900e820efb4a7088fc45c9e656920e","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false},{"type":"True/False","type":"True/False","id":"da9451db63974bcea53b679c5bedeb23","name":"don_t_treat_as_error","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"6b82e9b04757315078a0cd9fe16d43c8","domain":"global","topic_type":"STANDARD","channels":[],"id":"f872c62b836f7510c0499750ceaad392","name":"ServiceNow IP address","key_phrases":["ServiceNow IP address"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"library":false,"readOnly":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>f872c62b836f7510c0499750ceaad392</design_topic_id>
+        <graph>{
+  "graph_api_version": "1.0.42",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "e055ddbfebd544dc96a4a358e605e6c7": {
+          "id": "e055ddbfebd544dc96a4a358e605e6c7",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "a35fbc5b4fd840ec8db8cd3f8c5c6184": {
+          "id": "a35fbc5b4fd840ec8db8cd3f8c5c6184",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "9e522b2ee6f64892907325e2c526faee": {
+          "id": "9e522b2ee6f64892907325e2c526faee",
+          "stepType": "TextOutput",
+          "name": "IP Value",
+          "secure": false,
+          "value": [
+            {
+              "value": "(function execute() {\n    /* Return a quoted string.  For example:\n\n       if (vaInputs.first_name == 'Bill') {\n           return gs.getMessageLang(\"hi there {0}\", vaContext.getRequesterLang(), [vaInputs.first_name]);\n       } else {\n           return gs.getMessageLang(\"how are you {0}\", vaContext.getRequesterLang(), [vaInputs.last_name]);\n       }\n    */\n    return vaInputs.details;\n})()\n",
+              "mode": "script"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "3a6aa3b7ff1c4657b601bdb885d8cbd5": {
+          "id": "3a6aa3b7ff1c4657b601bdb885d8cbd5",
+          "name": "IP Address",
+          "invocationType": "action",
+          "stepType": "FlowAction",
+          "actionSpoke": "6b82e9b04757315078a0cd9fe16d43c8",
+          "actionSpokeAction": "a68935af832f7510c0499750ceaad33a",
+          "actionWaitType": "sync",
+          "actionRunAs": "session_user",
+          "permissionsNote": "By default, the Action executes based on the permissions of the user who initiated the conversation. For elevated privileges, you can set to System User.",
+          "actionSecureField": false,
+          "actionSelectSecureField": "",
+          "actionPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "actionConfirmPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "actionNonSecureChannelMessage": {
+            "mode": "simple",
+            "value": ""
+          },
+          "actionInputs": {},
+          "actionOutputs": {
+            "output-details": [
+              {
+                "id": "94004f37725f4fb68ffd15f99ee5ae5f",
+                "mapping": "Details",
+                "disabled": false,
+                "type": "string",
+                "value": "Details",
+                "is_list_data_entry": false,
+                "variable": "Details",
+                "variableName": "details"
+              }
+            ],
+            "output-__action_status__": [
+              {
+                "id": "da900e820efb4a7088fc45c9e656920e",
+                "mapping": "Action Status",
+                "disabled": false,
+                "type": "object",
+                "value": "Action Status",
+                "is_list_data_entry": false,
+                "variable": "Action Status",
+                "variableName": "action_status"
+              }
+            ],
+            "output-__dont_treat_as_error__": [
+              {
+                "id": "da9451db63974bcea53b679c5bedeb23",
+                "mapping": "Don't Treat as Error",
+                "disabled": false,
+                "type": "boolean",
+                "value": "Don't Treat as Error",
+                "is_list_data_entry": false,
+                "variable": "Don't Treat As Error",
+                "variableName": "don_t_treat_as_error"
+              }
+            ]
+          },
+          "actionDefinition": {
+            "id": "a68935af832f7510c0499750ceaad33a",
+            "latest_snapshot_id": "a68935af832f7510c0499750ceaad33a",
+            "type": "action",
+            "name": "sn_ip_address",
+            "label": "SN IP Address",
+            "scope_id": "6b82e9b04757315078a0cd9fe16d43c8",
+            "description": "",
+            "category": "",
+            "parameters_have_loaded": true,
+            "input_parameters": [],
+            "output_parameters": [
+              {
+                "name": "details",
+                "label": "Details",
+                "type": "string",
+                "order": 1,
+                "required": false,
+                "value": [],
+                "is_list_data_entry": false
+              },
+              {
+                "name": "__action_status__",
+                "label": "Action Status",
+                "type": "object",
+                "order": 2,
+                "required": false,
+                "value": [],
+                "is_list_data_entry": false
+              },
+              {
+                "name": "__dont_treat_as_error__",
+                "label": "Don't Treat as Error",
+                "type": "boolean",
+                "order": 3,
+                "required": false,
+                "value": [],
+                "is_list_data_entry": false
+              }
+            ]
+          },
+          "subflowSecureField": false,
+          "subflowSelectSecureField": "",
+          "subflowPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "subflowConfirmPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "subflowNonSecureChannelMessage": {
+            "mode": "simple",
+            "value": "This action is not supported on this channel."
+          },
+          "variableIds": [
+            "94004f37725f4fb68ffd15f99ee5ae5f",
+            "da900e820efb4a7088fc45c9e656920e",
+            "da9451db63974bcea53b679c5bedeb23"
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "371cacc0953f488cb179b9651851a296",
+          "edgeType": "Edge",
+          "source": "9e522b2ee6f64892907325e2c526faee",
+          "target": "a35fbc5b4fd840ec8db8cd3f8c5c6184",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "987ef7ce05204a7782cc25597e33deaa",
+          "edgeType": "Edge",
+          "source": "e055ddbfebd544dc96a4a358e605e6c7",
+          "target": "3a6aa3b7ff1c4657b601bdb885d8cbd5",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "30855634fcbc4c46bbe76354644f415d",
+          "edgeType": "Edge",
+          "source": "3a6aa3b7ff1c4657b601bdb885d8cbd5",
+          "target": "9e522b2ee6f64892907325e2c526faee",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "94004f37725f4fb68ffd15f99ee5ae5f": {
+      "id": "94004f37725f4fb68ffd15f99ee5ae5f",
+      "name": "details",
+      "label": "Details",
+      "defaultValue": "Details",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "is_list_data_entry": false,
+      "nodeId": "3a6aa3b7ff1c4657b601bdb885d8cbd5",
+      "isHidden": false
+    },
+    "da900e820efb4a7088fc45c9e656920e": {
+      "id": "da900e820efb4a7088fc45c9e656920e",
+      "name": "action_status",
+      "label": "Action Status",
+      "defaultValue": "Action Status",
+      "varType": "object",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "is_list_data_entry": false,
+      "nodeId": "3a6aa3b7ff1c4657b601bdb885d8cbd5",
+      "isHidden": false
+    },
+    "da9451db63974bcea53b679c5bedeb23": {
+      "id": "da9451db63974bcea53b679c5bedeb23",
+      "name": "don_t_treat_as_error",
+      "label": "Don't Treat As Error",
+      "defaultValue": "Don't Treat as Error",
+      "varType": "boolean",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "is_list_data_entry": false,
+      "nodeId": "3a6aa3b7ff1c4657b601bdb885d8cbd5",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <name>ServiceNow IP address</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 14:31:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3fd34aab836f7510c0499750ceaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>sys_cb_design_topic_3fd34aab836f7510c0499750ceaad3a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 14:31:11</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

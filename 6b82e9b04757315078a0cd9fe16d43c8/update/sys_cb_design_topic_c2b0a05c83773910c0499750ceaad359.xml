@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Test Video">3db0a05c83773910c0499750ceaad352</compiled_topic>
+        <design_definition>{"type":"FlowTopic","type":"FlowTopic","triggers":[{"type":"Trigger","name":"1af1d50af59f4e339495fda57882bda9","triggerType":"request","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"id":"1af1d50af59f4e339495fda57882bda9"}],"goals":[{"name":"primary","trigger_id":"1af1d50af59f4e339495fda57882bda9","nodes":[{"type":"StartGoal","type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"5e923adf2c024344b4afa31015694fd9","name":"Start"},{"type":"TerminateGoal","type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"c152447920894872a2a4a885cdd9701d","name":"End"},{"type":"ImageOutputPrompt","type":"ImageOutputPrompt","url":{"type":"String","type":"String","mode":"string","value":"https://dev224588.service-now.com/random.jpg"},"alt_text":{"type":"String","type":"String","mode":"string","value":""},"id":"e1060d1ac65440aa931a1c2dca9c02b6","name":"image","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"}}],"edges":[{"type":"Edge","source_node_id":"5e923adf2c024344b4afa31015694fd9","target_node_id":"e1060d1ac65440aa931a1c2dca9c02b6","id":"fdab6a346e5e47e8af267b97b0ac8980"},{"type":"Edge","source_node_id":"e1060d1ac65440aa931a1c2dca9c02b6","target_node_id":"c152447920894872a2a4a885cdd9701d","id":"d7285db5445a4b3ba38d3192cff11b84"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"6b82e9b04757315078a0cd9fe16d43c8","domain":"global","topic_type":"STANDARD","channels":[],"id":"c24fc6eb836f7510c0499750ceaad35a","name":"Test Video","key_phrases":["Test Video"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"library":false,"csTopicId":"3db0a05c83773910c0499750ceaad352","readOnly":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>c24fc6eb836f7510c0499750ceaad35a</design_topic_id>
+        <graph>{
+  "graph_api_version": "1.0.42",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "5e923adf2c024344b4afa31015694fd9": {
+          "id": "5e923adf2c024344b4afa31015694fd9",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "c152447920894872a2a4a885cdd9701d": {
+          "id": "c152447920894872a2a4a885cdd9701d",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "e1060d1ac65440aa931a1c2dca9c02b6": {
+          "id": "e1060d1ac65440aa931a1c2dca9c02b6",
+          "stepType": "ImageOutput",
+          "name": "image",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://dev224588.service-now.com/random.jpg"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "altText": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "fdab6a346e5e47e8af267b97b0ac8980",
+          "edgeType": "Edge",
+          "source": "5e923adf2c024344b4afa31015694fd9",
+          "target": "e1060d1ac65440aa931a1c2dca9c02b6",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d7285db5445a4b3ba38d3192cff11b84",
+          "edgeType": "Edge",
+          "source": "e1060d1ac65440aa931a1c2dca9c02b6",
+          "target": "c152447920894872a2a4a885cdd9701d",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <name>Test Video</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 15:13:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c2b0a05c83773910c0499750ceaad359</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>sys_cb_design_topic_c2b0a05c83773910c0499750ceaad359</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 12:41:59</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

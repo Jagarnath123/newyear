@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Requests Dataset">99e2e1f03557315038c36be9ec05a2c3</dataset>
+        <datasource display_value="My Request - Task Datasource">d1e2e1f0ad5731507470ce1186412ac1</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-21 12:48:10</sys_created_on>
+        <sys_id>99e2e1f055573150fd8ea65f25167fc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_99e2e1f055573150fd8ea65f25167fc0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-21 12:48:10</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>call_provider</internal_name>
+        <label_cache>[{"name":"{{step[ed254283-5b0e-4aa6-bff1-bb75424191b8].restresponse}}","label":"step➛Script step➛restResponse","type":"step","ref":"","reference_display":"","base_type":"multi_small","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Multiple Line Small Text Area","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"multi_small","uiUniqueId":"eb4bf5cc-4b9e-44fd-be78-8cf3051bbd5d"}},{"name":"{{step[1eb439f1-5a0f-4605-b21c-56d7f78422ea].restresponse}}","label":"step➛Script step➛restResponse","type":"step","ref":"","reference_display":"","base_type":"multi_small","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Multiple Line Small Text Area","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"multi_small","uiUniqueId":"68be2f9f-ca8c-48de-a66b-089fe1a6f1f9"}}]</label_cache>
+        <master_snapshot>bda407e283937110c0499750ceaad376</master_snapshot>
+        <name>Call Provider</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:17:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9e038bae83537110c0499750ceaad3d7</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Call Provider</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_9e038bae83537110c0499750ceaad3d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:39:19</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=9e038bae83537110c0499750ceaad3d7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9e038bae83537110c0499750ceaad3d7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>9e038bae83537110c0499750ceaad3d7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:30</sys_created_on>
+        <sys_id>20a4c3e283937110c0499750ceaad3d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:24:30</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">68a4c3e283937110c0499750ceaad3c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>9e038bae83537110c0499750ceaad3d7</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:30</sys_created_on>
+        <sys_id>6ca4c3e283937110c0499750ceaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:24:30</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">eca4c3e283937110c0499750ceaad3c8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9e038bae83537110c0499750ceaad3d7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>9e038bae83537110c0499750ceaad3d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:30</sys_created_on>
+        <sys_id>64a4c3e283937110c0499750ceaad3d0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:38:01</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9e038bae83537110c0499750ceaad3d7</table>
+        <value>{{step[1eb439f1-5a0f-4605-b21c-56d7f78422ea].restresponse}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>9e038bae83537110c0499750ceaad3d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:30</sys_created_on>
+        <sys_id>e8a4c3e283937110c0499750ceaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:24:30</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9e038bae83537110c0499750ceaad3d7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>9e038bae83537110c0499750ceaad3d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:30</sys_created_on>
+        <sys_id>28a4c3e283937110c0499750ceaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:24:30</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9e038bae83537110c0499750ceaad3d7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=9e038bae83537110c0499750ceaad3d7^sys_idNOT IN39a74ba283937110c0499750ceaad3f4"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Call Provider">9e038bae83537110c0499750ceaad3d7</action>
+        <cid>1eb439f1-5a0f-4605-b21c-56d7f78422ea</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:37:42</sys_created_on>
+        <sys_id>39a74ba283937110c0499750ceaad3f4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:39:12</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=39a74ba283937110c0499750ceaad3f4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>39a74ba283937110c0499750ceaad3f4</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:37:42</sys_created_on>
+        <sys_id>35a7cfa683937110c0499750ceaad357</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:39:12</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+&#13;
+ try { &#13;
+ var r = new sn_ws.RESTMessageV2('x_1136210_new_ye_0.Oauth Request', 'GET');&#13;
+&#13;
+//override authentication profile &#13;
+//authentication type ='basic'/ 'oauth2'&#13;
+//r.setAuthenticationProfile(authentication type, profile name);&#13;
+&#13;
+//set a MID server name if one wants to run the message on MID&#13;
+//r.setMIDServer('MY_MID_SERVER');&#13;
+&#13;
+//if the message is configured to communicate through ECC queue, either&#13;
+//by setting a MID server or calling executeAsync, one needs to set skip_sensor&#13;
+//to true. Otherwise, one may get an intermittent error that the response body is null&#13;
+//r.setEccParameter('skip_sensor', true);&#13;
+&#13;
+ var response = r.execute();&#13;
+ var responseBody = response.getBody();&#13;
+ var httpStatus = response.getStatusCode();&#13;
+&#13;
+ outputs.restresponse=responseBody;&#13;
+}&#13;
+catch(ex) {&#13;
+ var message = ex.message;&#13;
+}&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>39a74ba283937110c0499750ceaad3f4</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:37:42</sys_created_on>
+        <sys_id>71a7cfa683937110c0499750ceaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:37:42</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_39a74ba283937110c0499750ceaad3f4^id=39a74ba283937110c0499750ceaad3f4"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=39a74ba283937110c0499750ceaad3f4"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=39a74ba283937110c0499750ceaad3f4"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=39a74ba283937110c0499750ceaad3f4"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=39a74ba283937110c0499750ceaad3f4^sys_idNOT IN39a7cfa683937110c0499750ceaad350"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=multi_small,uiTypeLabel=Multiple Line Small Text Area,uiUniqueId=68be2f9f-ca8c-48de-a66b-089fe1a6f1f9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>restresponse</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">multi_small</internal_type>
+        <label>restResponse</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">39a74ba283937110c0499750ceaad3f4</model>
+        <model_id>39a74ba283937110c0499750ceaad3f4</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_39a74ba283937110c0499750ceaad3f4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:37:42</sys_created_on>
+        <sys_id>39a7cfa683937110c0499750ceaad350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:37:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=39a74ba283937110c0499750ceaad3f4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_39a74ba283937110c0499750ceaad3f4^sys_idNOT INb9a7cfa683937110c0499750ceaad353"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>restresponse</element>
+        <help/>
+        <hint/>
+        <label>restResponse</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_39a74ba283937110c0499750ceaad3f4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:37:42</sys_created_on>
+        <sys_id>b9a7cfa683937110c0499750ceaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:37:42</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=9e038bae83537110c0499750ceaad3d7"/>
+    <sys_hub_action_output action="delete_multiple" query="model=9e038bae83537110c0499750ceaad3d7^sys_idNOT IN64a4c3e283937110c0499750ceaad3c5,68a4c3e283937110c0499750ceaad3c0,eca4c3e283937110c0499750ceaad3c8"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=multi_small,uiTypeLabel=Multiple Line Small Text Area,uiUniqueId=44318999-59f9-4fae-82ce-9600b7e2ed4b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">multi_small</internal_type>
+        <label>displayOutput</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Call Provider">9e038bae83537110c0499750ceaad3d7</model>
+        <model_id>9e038bae83537110c0499750ceaad3d7</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_9e038bae83537110c0499750ceaad3d7</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:30</sys_created_on>
+        <sys_id>64a4c3e283937110c0499750ceaad3c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:24:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=64a4c3e283937110c0499750ceaad3c5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=64a4c3e283937110c0499750ceaad3c5"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=459a59b2-26e7-4595-8a55-b72325a944e5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Call Provider">9e038bae83537110c0499750ceaad3d7</model>
+        <model_id>9e038bae83537110c0499750ceaad3d7</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_9e038bae83537110c0499750ceaad3d7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:30</sys_created_on>
+        <sys_id>68a4c3e283937110c0499750ceaad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:24:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=68a4c3e283937110c0499750ceaad3c0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=68a4c3e283937110c0499750ceaad3c0"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=71b99970-fb10-479b-a1dc-9cc008e7a5f8,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Call Provider">9e038bae83537110c0499750ceaad3d7</model>
+        <model_id>9e038bae83537110c0499750ceaad3d7</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_9e038bae83537110c0499750ceaad3d7</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:30</sys_created_on>
+        <sys_id>eca4c3e283937110c0499750ceaad3c8</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:39:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=eca4c3e283937110c0499750ceaad3c8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eca4c3e283937110c0499750ceaad3c8"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9e038bae83537110c0499750ceaad3d7"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=9e038bae83537110c0499750ceaad3d7^sys_idNOT IN80244ba283937110c0499750ceaad3df"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Call Provider">9e038bae83537110c0499750ceaad3d7</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:22:17</sys_created_on>
+        <sys_id>80244ba283937110c0499750ceaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:22:17</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=80244ba283937110c0499750ceaad3df"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_9e038bae83537110c0499750ceaad3d7"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_9e038bae83537110c0499750ceaad3d7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_9e038bae83537110c0499750ceaad3d7^sys_idNOT IN28a4c3e283937110c0499750ceaad3c4,a0a4c3e283937110c0499750ceaad3c8,e8a4c3e283937110c0499750ceaad3cd"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_9e038bae83537110c0499750ceaad3d7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:30</sys_created_on>
+        <sys_id>28a4c3e283937110c0499750ceaad3c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:24:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>displayOutput</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_9e038bae83537110c0499750ceaad3d7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:30</sys_created_on>
+        <sys_id>a0a4c3e283937110c0499750ceaad3c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:24:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_9e038bae83537110c0499750ceaad3d7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:30</sys_created_on>
+        <sys_id>e8a4c3e283937110c0499750ceaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:24:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_9e038bae83537110c0499750ceaad3d7"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=9e038bae83537110c0499750ceaad3d7^sys_idNOT IN42a407e283937110c0499750ceaad3ef"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Call Provider">9e038bae83537110c0499750ceaad3d7</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"42a407e283937110c0499750ceaad3ef","name":"plan","plan_signature":null}}</plan>
+        <snapshot>2108c7e683937110c0499750ceaad3e5</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>42a407e283937110c0499750ceaad3ef</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:39:20</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>call_provider</internal_name>
+        <label_cache>[{"name":"{{step[ed254283-5b0e-4aa6-bff1-bb75424191b8].restresponse}}","label":"step➛Script step➛restResponse","type":"step","ref":"","reference_display":"","base_type":"multi_small","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Multiple Line Small Text Area","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"multi_small","uiUniqueId":"eb4bf5cc-4b9e-44fd-be78-8cf3051bbd5d"}},{"name":"{{step[1eb439f1-5a0f-4605-b21c-56d7f78422ea].restresponse}}","label":"step➛Script step➛restResponse","type":"step","ref":"","reference_display":"","base_type":"multi_small","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Multiple Line Small Text Area","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"multi_small","uiUniqueId":"68be2f9f-ca8c-48de-a66b-089fe1a6f1f9"}}]</label_cache>
+        <master>true</master>
+        <name>Call Provider</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Call Provider">9e038bae83537110c0499750ceaad3d7</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bda407e283937110c0499750ceaad376</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:39:19</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=bda407e283937110c0499750ceaad376"/>
+    <sys_variable_value action="delete_multiple" query="document_key=bda407e283937110c0499750ceaad376"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>bda407e283937110c0499750ceaad376</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:36</sys_created_on>
+        <sys_id>02a407e283937110c0499750ceaad398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:24:36</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">35a407e283937110c0499750ceaad388</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>bda407e283937110c0499750ceaad376</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:36</sys_created_on>
+        <sys_id>4ea407e283937110c0499750ceaad397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:24:36</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">35a407e283937110c0499750ceaad390</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bda407e283937110c0499750ceaad376"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>bda407e283937110c0499750ceaad376</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:36</sys_created_on>
+        <sys_id>46a407e283937110c0499750ceaad397</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:39:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_bda407e283937110c0499750ceaad376</table>
+        <value>{{step[1eb439f1-5a0f-4605-b21c-56d7f78422ea].restresponse}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>bda407e283937110c0499750ceaad376</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:36</sys_created_on>
+        <sys_id>caa407e283937110c0499750ceaad397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:24:36</sys_updated_on>
+        <table>var__m_sys_hub_action_output_bda407e283937110c0499750ceaad376</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>bda407e283937110c0499750ceaad376</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:36</sys_created_on>
+        <sys_id>0aa407e283937110c0499750ceaad397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:24:36</sys_updated_on>
+        <table>var__m_sys_hub_action_output_bda407e283937110c0499750ceaad376</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=bda407e283937110c0499750ceaad376^sys_idNOT INe508c7e683937110c0499750ceaad3bf"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Call Provider">bda407e283937110c0499750ceaad376</action>
+        <cid>1eb439f1-5a0f-4605-b21c-56d7f78422ea</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:39:19</sys_created_on>
+        <sys_id>e508c7e683937110c0499750ceaad3bf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:39:19</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e508c7e683937110c0499750ceaad3bf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e508c7e683937110c0499750ceaad3bf</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:39:19</sys_created_on>
+        <sys_id>2d08c7e683937110c0499750ceaad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:39:19</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e508c7e683937110c0499750ceaad3bf</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:39:19</sys_created_on>
+        <sys_id>ed08c7e683937110c0499750ceaad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:39:19</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+&#13;
+ try { &#13;
+ var r = new sn_ws.RESTMessageV2('x_1136210_new_ye_0.Oauth Request', 'GET');&#13;
+&#13;
+//override authentication profile &#13;
+//authentication type ='basic'/ 'oauth2'&#13;
+//r.setAuthenticationProfile(authentication type, profile name);&#13;
+&#13;
+//set a MID server name if one wants to run the message on MID&#13;
+//r.setMIDServer('MY_MID_SERVER');&#13;
+&#13;
+//if the message is configured to communicate through ECC queue, either&#13;
+//by setting a MID server or calling executeAsync, one needs to set skip_sensor&#13;
+//to true. Otherwise, one may get an intermittent error that the response body is null&#13;
+//r.setEccParameter('skip_sensor', true);&#13;
+&#13;
+ var response = r.execute();&#13;
+ var responseBody = response.getBody();&#13;
+ var httpStatus = response.getStatusCode();&#13;
+&#13;
+ outputs.restresponse=responseBody;&#13;
+}&#13;
+catch(ex) {&#13;
+ var message = ex.message;&#13;
+}&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_e508c7e683937110c0499750ceaad3bf^id=e508c7e683937110c0499750ceaad3bf"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=e508c7e683937110c0499750ceaad3bf"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=e508c7e683937110c0499750ceaad3bf"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=e508c7e683937110c0499750ceaad3bf"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e508c7e683937110c0499750ceaad3bf^sys_idNOT INe108c7e683937110c0499750ceaad3c3"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=multi_small,uiTypeLabel=Multiple Line Small Text Area,uiUniqueId=68be2f9f-ca8c-48de-a66b-089fe1a6f1f9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>restresponse</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">multi_small</internal_type>
+        <label>restResponse</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">e508c7e683937110c0499750ceaad3bf</model>
+        <model_id>e508c7e683937110c0499750ceaad3bf</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e508c7e683937110c0499750ceaad3bf</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:39:19</sys_created_on>
+        <sys_id>e108c7e683937110c0499750ceaad3c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:39:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e508c7e683937110c0499750ceaad3bf"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_e508c7e683937110c0499750ceaad3bf^sys_idNOT IN6508c7e683937110c0499750ceaad3c6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>restresponse</element>
+        <help/>
+        <hint/>
+        <label>restResponse</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_e508c7e683937110c0499750ceaad3bf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:39:19</sys_created_on>
+        <sys_id>6508c7e683937110c0499750ceaad3c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:39:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=bda407e283937110c0499750ceaad376"/>
+    <sys_hub_action_output action="delete_multiple" query="model=bda407e283937110c0499750ceaad376^sys_idNOT IN35a407e283937110c0499750ceaad388,35a407e283937110c0499750ceaad390,b9a407e283937110c0499750ceaad38c"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=459a59b2-26e7-4595-8a55-b72325a944e5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Call Provider">bda407e283937110c0499750ceaad376</model>
+        <model_id>bda407e283937110c0499750ceaad376</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_bda407e283937110c0499750ceaad376</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:36</sys_created_on>
+        <sys_id>35a407e283937110c0499750ceaad388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:24:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=35a407e283937110c0499750ceaad388"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=35a407e283937110c0499750ceaad388"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=71b99970-fb10-479b-a1dc-9cc008e7a5f8,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Call Provider">bda407e283937110c0499750ceaad376</model>
+        <model_id>bda407e283937110c0499750ceaad376</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_bda407e283937110c0499750ceaad376</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:36</sys_created_on>
+        <sys_id>35a407e283937110c0499750ceaad390</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:39:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=35a407e283937110c0499750ceaad390"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=35a407e283937110c0499750ceaad390"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=multi_small,uiTypeLabel=Multiple Line Small Text Area,uiUniqueId=44318999-59f9-4fae-82ce-9600b7e2ed4b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">multi_small</internal_type>
+        <label>displayOutput</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Call Provider">bda407e283937110c0499750ceaad376</model>
+        <model_id>bda407e283937110c0499750ceaad376</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_bda407e283937110c0499750ceaad376</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:36</sys_created_on>
+        <sys_id>b9a407e283937110c0499750ceaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:24:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b9a407e283937110c0499750ceaad38c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b9a407e283937110c0499750ceaad38c"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=bda407e283937110c0499750ceaad376"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=bda407e283937110c0499750ceaad376^sys_idNOT IN82a407e283937110c0499750ceaad39a"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Call Provider">bda407e283937110c0499750ceaad376</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:36</sys_created_on>
+        <sys_id>82a407e283937110c0499750ceaad39a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:24:36</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=82a407e283937110c0499750ceaad39a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_bda407e283937110c0499750ceaad376"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_bda407e283937110c0499750ceaad376"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_bda407e283937110c0499750ceaad376^sys_idNOT IN7da407e283937110c0499750ceaad38b,caa407e283937110c0499750ceaad394,f5a407e283937110c0499750ceaad38f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_bda407e283937110c0499750ceaad376</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:36</sys_created_on>
+        <sys_id>7da407e283937110c0499750ceaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:24:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_bda407e283937110c0499750ceaad376</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:36</sys_created_on>
+        <sys_id>caa407e283937110c0499750ceaad394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:24:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>displayOutput</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_bda407e283937110c0499750ceaad376</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 06:24:36</sys_created_on>
+        <sys_id>f5a407e283937110c0499750ceaad38f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:24:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_bda407e283937110c0499750ceaad376"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>9e038bae83537110c0499750ceaad3d7</sys_id>
+        <latest_snapshot>bda407e283937110c0499750ceaad376</latest_snapshot>
+        <compiler_build>glide-utah-12-21-2022__patch7a-09-28-2023_10-10-2023_1258.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>
