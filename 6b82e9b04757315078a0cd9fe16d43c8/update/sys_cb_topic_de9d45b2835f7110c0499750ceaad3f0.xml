@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.42",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "a7ec3addcd4349aab5b6b1519f300c98": {
+          "id": "a7ec3addcd4349aab5b6b1519f300c98",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "7973f99446c444c092be9d05b62b54ef": {
+          "id": "7973f99446c444c092be9d05b62b54ef",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "a8f15618ea7c4bba902b2dd7b780f992": {
+          "id": "a8f15618ea7c4bba902b2dd7b780f992",
+          "stepType": "Prompt",
+          "name": "Ask a question",
+          "prompt": {
+            "value": "(function execute() {\n    \n\n       if (JSUtil.nil(vaInputs.answer)) \n           return \"Enter your question?\";\n        else \n           return trim(vaInputs.answer)\n        \n   \n})()\n",
+            "mode": "script"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "31b48e8475aa4a2b975b4e1c37255a11",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          }
+        },
+        "fc60c5248869429293372b2d48cd0a23": {
+          "id": "fc60c5248869429293372b2d48cd0a23",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "7d197b65031047dc965d04ff17a59dbd": {
+          "id": "7d197b65031047dc965d04ff17a59dbd",
+          "name": "askChatGPT",
+          "script": "(function execute() {\n    \n    var message= vaInputs.ask_a_question;\n    vaVars.answer= askChatGPT(message);\n    function askChatGPT(msg){\n       \n try { \n var r = new sn_ws.RESTMessageV2('x_1136210_new_ye_0.chatGPT', 'POST');\n r.setStringParameterNoEscape('prompt', msg);\n r.setStringParameterNoEscape('model', 'gpt-3.5-turbo-instruct');\n r.setStringParameterNoEscape('max_tokens', '7');\n r.setStringParameterNoEscape('temperature', '0');\n var response = r.execute();\n var responseBody = response.getBody();\n var response= JSON.parse(responseBody);\n   return response.choices[0].text;\n     \n}\ncatch(ex) {\n var message = ex.message;\n}\n\n    }\n\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "2557a6bc6eb143c8bff9a490c5c259ea": {
+          "id": "2557a6bc6eb143c8bff9a490c5c259ea",
+          "stepType": "TextOutput",
+          "name": "chatGPT Response",
+          "secure": false,
+          "value": [
+            {
+              "value": "(function execute() {\n   vaInputs.answer=\"\";\n\nreturn vaVars.answer;\n\n})()\n",
+              "mode": "script"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "f41e324a971546a7a621b9f868478c29",
+          "edgeType": "Edge",
+          "source": "a7ec3addcd4349aab5b6b1519f300c98",
+          "target": "a8f15618ea7c4bba902b2dd7b780f992",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "83f2b27e81a2451c8de90dc383dbb7b4",
+          "edgeType": "Edge",
+          "source": "a8f15618ea7c4bba902b2dd7b780f992",
+          "target": "fc60c5248869429293372b2d48cd0a23",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "6770b54a662b40d39881492b02ea5cb2",
+          "edgeType": "Branch",
+          "source": "fc60c5248869429293372b2d48cd0a23",
+          "target": "7973f99446c444c092be9d05b62b54ef",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "",
+            "mode": "query"
+          },
+          "label": "Always"
+        },
+        {
+          "id": "4f4d32b483b846579aefbda3436a9281",
+          "edgeType": "Branch",
+          "source": "fc60c5248869429293372b2d48cd0a23",
+          "target": "7d197b65031047dc965d04ff17a59dbd",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "query",
+            "value": ""
+          },
+          "label": "Validate the answer"
+        },
+        {
+          "id": "741f44459efb4f28879b4be4153b635c",
+          "edgeType": "Edge",
+          "source": "7d197b65031047dc965d04ff17a59dbd",
+          "target": "2557a6bc6eb143c8bff9a490c5c259ea",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "df675fdadb86406daeeb1a9e4f76d0c0",
+          "edgeType": "Edge",
+          "source": "2557a6bc6eb143c8bff9a490c5c259ea",
+          "target": "fc60c5248869429293372b2d48cd0a23",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "31b48e8475aa4a2b975b4e1c37255a11": {
+      "id": "31b48e8475aa4a2b975b4e1c37255a11",
+      "name": "ask_a_question",
+      "label": "Ask A Question",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTcwMzY5NDIzNDA1NyBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "a8f15618ea7c4bba902b2dd7b780f992",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <key_phrases>ChatGPT</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>ChatGPT</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles>public</roles>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 16:22:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>de9d45b2835f7110c0499750ceaad3f0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>ChatGPT</sys_name>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>sys_cb_topic_de9d45b2835f7110c0499750ceaad3f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 17:22:48</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+</record_update>

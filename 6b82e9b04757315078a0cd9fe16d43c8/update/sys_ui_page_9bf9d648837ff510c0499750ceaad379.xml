@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1136210_new_ye_0_Python.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+
+<head>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script async="false" src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+  
+    <py-script> 
+        x=10
+        y=15
+        z= 10 +15
+        print(z) 
+    </py-script> 
+</body>
+
+
+</j:jelly>]]></html>
+        <name>Python</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 05:25:02</sys_created_on>
+        <sys_id>9bf9d648837ff510c0499750ceaad379</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Python</sys_name>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>sys_ui_page_9bf9d648837ff510c0499750ceaad379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-13 05:26:50</sys_updated_on>
+    </sys_ui_page>
+</record_update>

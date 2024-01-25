@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url>https://dev176015.service-now.com/oauth_auth.do</auth_url>
+        <certificate_url/>
+        <client_id>99a8b2e2a35b3110a6e47cdd626a6e04</client_id>
+        <client_secret>﷞﷟﷒f0edff1447b23110b8d39dbe316d434b﷬﷔1﷬﷭DKgIkfrrXkEy_-NDtdLIWQ==36hSQcPX2VSMh-xx2uwvB-STcSfv_y1nS1M=﷮﷯</client_secret>
+        <client_uuid>a15a7ea683537110c0499750ceaad310</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>authorization_code</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
+        <name>ServiceNow Consumer</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://dev224588.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt>0</salt>
+        <send_client_credentials_as>basic_authorization_header</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 05:43:09</sys_created_on>
+        <sys_id>255a7ea683537110c0499750ceaad310</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>ServiceNow Consumer</sys_name>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>oauth_entity_255a7ea683537110c0499750ceaad310</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 06:10:18</sys_updated_on>
+        <token_url>https://dev176015.service-now.com/oauth_token.do</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+</record_update>

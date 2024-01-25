@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+    c.data.title = c.options.title || "";
+    c.data.link = c.options.link || "https://twitter.com/servicenow";
+    c.data.height = c.options.height || 450;
+    c.data.width = c.options.width  || 300;
+    c.data.link_color = c.options.link_color || "#2B7BB9";
+    c.data.theme = c.options.theme || light;
+    c.data.dnt = c.options.dnt || true;
+    c.data.chrome = c.options.additional_options || "";
+    c.data.chrome = c.data.chrome.replace(" ", "").replace(",", " ");
+	
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>tweets</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Tweets</name>
+        <option_schema>[{"hint":"The link to the twitter feed","name":"link","section":"other","label":"Link","type":"string"},{"hint":"Specify a height for the Twitter Widget","name":"height","section":"other","default_value":"350","label":"Height","type":"integer"},{"hint":"Specify a width for the Twitter Widget","name":"width","section":"other","default_value":"300","label":"Width","type":"integer"},{"hint":"Select a color scheme for the Twitter Widget","name":"theme","section":"other","default_value":"light","label":"Theme","type":"choice","choices":[{"label":"light","value":"light"},{"label":"dark","value":"dark"}]},{"hint":"Enter a HEX value for the color of the links in the Tweet","name":"link_color","section":"other","default_value":"#2B7BB9","label":"Link Color","type":"string"},{"hint":"Enable/Disable Twitter tracking","name":"dnt","section":"other","default_value":"true","label":"Do Not Track","type":"boolean"},{"hint":"Comma separated list including the additional 'chrome' options. Available options: 'noheader' 'nofooter' 'noborders' 'noscrollbar' 'transparent'","name":"additional_options","section":"other","label":"Additional Options","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-24 13:54:32</sys_created_on>
+        <sys_id>c4ce49354753355078a0cd9fe16d4334</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Tweets</sys_name>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>sp_widget_c4ce49354753355078a0cd9fe16d4334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-24 14:38:08</sys_updated_on>
+        <template><![CDATA[<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div>
+  <a class="twitter-timeline" 
+     data-width="{{::data.width}}" 
+     data-height="{{::data.height}}" 
+     data-dnt="{{::data.dnt}}" 
+     data-theme="{{::data.theme}}" 
+     data-link-color="{{::data.link_color}}"
+     data-chrome="{{::data.chrome}}"
+     href="{{::data.link}}">
+    {{::data.title}}
+  </a> 
+</div>]]></template>
+    </sp_widget>
+</record_update>

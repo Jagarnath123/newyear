@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">aad1d9f54753355078a0cd9fe16d43d7</sp_column>
+        <sp_widget display_value="Tweets">c4ce49354753355078a0cd9fe16d4334</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-24 14:12:45</sys_created_on>
+        <sys_id>9a03d5394753355078a0cd9fe16d43e2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>sp_instance_9a03d5394753355078a0cd9fe16d43e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-24 14:31:00</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link": {
+		"value": "https://twitter.com/ctomasi",
+		"displayValue": "https://twitter.com/ctomasi"
+	},
+	"height": {
+		"value": 450,
+		"displayValue": "450"
+	},
+	"width": {
+		"value": null,
+		"displayValue": ""
+	},
+	"theme": {
+		"value": "light",
+		"displayValue": "light"
+	},
+	"link_color": {
+		"value": "",
+		"displayValue": ""
+	},
+	"dnt": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"additional_options": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=9a03d5394753355078a0cd9fe16d43e2"/>
+</record_update>

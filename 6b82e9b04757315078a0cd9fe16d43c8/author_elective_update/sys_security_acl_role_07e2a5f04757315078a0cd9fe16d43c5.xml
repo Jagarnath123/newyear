@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-21 12:48:14</sys_created_on>
+        <sys_id>07e2a5f04757315078a0cd9fe16d43c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1136210_new_ye_0.user</sys_name>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_security_acl/>
+        <sys_update_name>sys_security_acl_role_07e2a5f04757315078a0cd9fe16d43c5</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-21 12:48:14</sys_updated_on>
+        <sys_user_role display_value="x_1136210_new_ye_0.user" name="x_1136210_new_ye_0.user">2b82e9b04757315078a0cd9fe16d43df</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</application>
+        <file_path/>
+        <instance_id>7efca7dc1b3a7d101024eb9b2d4bcbc9</instance_id>
+        <instance_name>dev224588</instance_name>
+        <name>sys_security_acl_role_07e2a5f04757315078a0cd9fe16d43c5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-12-21 12:48:14</sys_created_on><sys_id>07e2a5f04757315078a0cd9fe16d43c5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_1136210_new_ye_0.user</sys_name><sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package><sys_policy/><sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope><sys_security_acl/><sys_update_name>sys_security_acl_role_07e2a5f04757315078a0cd9fe16d43c5</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-12-21 12:48:14</sys_updated_on><sys_user_role display_value="x_1136210_new_ye_0.user" name="x_1136210_new_ye_0.user">2b82e9b04757315078a0cd9fe16d43df</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>2107692194</payload_hash>
+        <record_name>.x_1136210_new_ye_0.user</record_name>
+        <reverted_from/>
+        <source>6b82e9b04757315078a0cd9fe16d43ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-21 12:48:14</sys_created_on>
+        <sys_id>87e2a5f04757315078a0cd9fe16d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c8c6b58980000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-21 12:48:14</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>cbe2a5f033573150c7a76b35d45a01c6</update_guid>
+        <update_guid_history>cbe2a5f033573150c7a76b35d45a01c6:2107692194</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_1136210_new_ye_0.user">10332df04757315078a0cd9fe16d433a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 12:49:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>3a369240da424830ab5fe66ebe737721</sys_id>
+        <sys_metadata>07e2a5f04757315078a0cd9fe16d43c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1136210_new_ye_0.user</sys_name>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_scope_delete display_value="">288fedc3c0d049268ee2079100fdf199</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_07e2a5f04757315078a0cd9fe16d43c5</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_07e2a5f04757315078a0cd9fe16d43c5">87e2a5f04757315078a0cd9fe16d43c7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 12:49:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

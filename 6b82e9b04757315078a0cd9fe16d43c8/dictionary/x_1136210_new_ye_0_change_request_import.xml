@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="74a94c9d83373d10c0499750ceaad312" extends="sys_import_set_row" label="Change Requests" max_length="40" name="x_1136210_new_ye_0_change_request_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=assigned_to" label="assigned_to" max_length="40" name="u_assigned_to" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=end_date" label="end_date" max_length="40" name="u_end_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=number" label="number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=requested_by" label="requested_by" max_length="40" name="u_requested_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=short_description" label="short_description" max_length="91" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=start_date" label="start_date" max_length="40" name="u_start_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=state" label="state" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=type" label="type" max_length="40" name="u_type" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD59010130f67bb91007aabee5e3cb00f3</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>6b82e9b04757315078a0cd9fe16d43c8</scope_name>
+        <serialized_content>{"FlowDesigner:FD59010130f67bb91007aabee5e3cb00f3":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD59010130f67bb91007aabee5e3cb00f3.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Details\",\"mandatory\":\"false\",\"child_name\":\"details_child0\",\"uiUniqueId\":\"27bd4f7b-73cb-459c-b1ce-4e31dbc06475\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD59010130f67bb91007aabee5e3cb00f3\",\"child_label\":\"Details_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"b809393c-2fc1-46b3-91a0-859c93b742c3\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 06:51:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1d010130837bb910c0499750ceaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD59010130f67bb91007aabee5e3cb00f3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>sys_complex_object_1d010130837bb910c0499750ceaad3f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 06:51:31</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

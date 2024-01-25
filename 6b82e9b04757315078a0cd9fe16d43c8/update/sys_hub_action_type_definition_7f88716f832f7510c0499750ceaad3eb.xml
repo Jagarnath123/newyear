@@ -1,0 +1,1458 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>65a4509b83673510c0499750ceaad361</copied_from>
+        <copied_from_name>Send WhatsApp Message</copied_from_name>
+        <description/>
+        <ih_action>true</ih_action>
+        <internal_name>sn_ip_address</internal_name>
+        <label_cache>[{"name":"{{action.imagepath}}","label":"action➛imagepath","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.number}}","label":"action➛Number","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.short_description}}","label":"action➛Short Description","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.description}}","label":"action➛Description","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[97527170-af87-4053-8ade-5fa258807a7c].output}}","label":"step➛SSH step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>a68935af832f7510c0499750ceaad33a</master_snapshot>
+        <name>SN IP Address</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7f88716f832f7510c0499750ceaad3eb</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name>SN IP Address</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_7f88716f832f7510c0499750ceaad3eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 14:26:31</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=7f88716f832f7510c0499750ceaad3eb"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7f88716f832f7510c0499750ceaad3eb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>7f88716f832f7510c0499750ceaad3eb</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>0098b16f832f7510c0499750ceaad33c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">cc98b16f832f7510c0499750ceaad330</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>7f88716f832f7510c0499750ceaad3eb</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>c098b16f832f7510c0499750ceaad33c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:02</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD8498b16f3f2f751090bccb16ace6a225":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD8498b16f3f2f751090bccb16ace6a225.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"2984f2c8-88f6-40ef-bdce-fe20f4911666\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD8498b16f3f2f751090bccb16ace6a225\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">c098b16f832f7510c0499750ceaad32d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7f88716f832f7510c0499750ceaad3eb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>details</field>
+        <id>7f88716f832f7510c0499750ceaad3eb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>0898b16f832f7510c0499750ceaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+        <table>var__m_sys_hub_action_output_7f88716f832f7510c0499750ceaad3eb</table>
+        <value>{{step[97527170-af87-4053-8ade-5fa258807a7c].output}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>7f88716f832f7510c0499750ceaad3eb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>8c98b16f832f7510c0499750ceaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+        <table>var__m_sys_hub_action_output_7f88716f832f7510c0499750ceaad3eb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>7f88716f832f7510c0499750ceaad3eb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>c898b16f832f7510c0499750ceaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+        <table>var__m_sys_hub_action_output_7f88716f832f7510c0499750ceaad3eb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=7f88716f832f7510c0499750ceaad3eb^sys_idNOT INc898716f832f7510c0499750ceaad3fd"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="SN IP Address">7f88716f832f7510c0499750ceaad3eb</action>
+        <cid>97527170-af87-4053-8ade-5fa258807a7c</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>SSH step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>c898716f832f7510c0499750ceaad3fd</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 14:20:37</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c898716f832f7510c0499750ceaad3fd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c898716f832f7510c0499750ceaad3fd</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>0098b16f832f7510c0499750ceaad309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+        <value>/home/kali</value>
+        <variable display_value="Working Directory">026edb2473332300673d94596bf6a7c6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c898716f832f7510c0499750ceaad3fd</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>4898b16f832f7510c0499750ceaad309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+        <value>192.168.29.182</value>
+        <variable display_value="Host">952cdbe073332300673d94596bf6a7a7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c898716f832f7510c0499750ceaad3fd</document_key>
+        <order>550</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>4c98b16f832f7510c0499750ceaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+        <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
+        <variable display_value="Capabilities">37ddd72473332300673d94596bf6a781</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c898716f832f7510c0499750ceaad3fd</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>4c98b16f832f7510c0499750ceaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c898716f832f7510c0499750ceaad3fd</document_key>
+        <order>470</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>8498b16f832f7510c0499750ceaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+        <value>specific_mid_server</value>
+        <variable display_value="MID Selection">25d3c74373531010791f94596bf6a712</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c898716f832f7510c0499750ceaad3fd</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>8498b16f832f7510c0499750ceaad309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+        <value>f24285c8932b03005d55925cf67ffbaf</value>
+        <variable display_value="Connection Alias">6b5c5fe073332300673d94596bf6a7a4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c898716f832f7510c0499750ceaad3fd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>8898b16f832f7510c0499750ceaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c898716f832f7510c0499750ceaad3fd</document_key>
+        <order>650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:01</sys_created_on>
+        <sys_id>9689f1af832f7510c0499750ceaad3dc</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 14:20:37</sys_updated_on>
+        <value>#!/bin/bash
+
+result=$(cat &lt;&lt;EOF
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.keys import Keys
+import time
+import re
+
+service = Service('/home/kali/Downloads/chromedriver-linux64/chromedriver')
+
+def get_driver(url):
+    #Set options to make browsing easier
+    options = webdriver.ChromeOptions()
+    options.add_argument("disable-infobars")
+    options.add_argument("--start-maximized")
+    options.add_argument("window-size=1200x600")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--no-sandbox")
+    options.add_argument('--headless')
+    options.add_argument("--disable-extensions");
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_argument("disable-blink- features=AutomationControlled")
+
+    driver =webdriver.Chrome(service=service,options=options)
+    driver.get(url)
+    return driver
+
+
+def main():
+    driver=get_driver("https://dev224588.service-now.com/sp")
+    driver.find_element(by="id",value="username").send_keys("admin")
+    time.sleep(2)
+    driver.find_element(by="id",value="password").send_keys("Y@w*5p2ZFeXq" + Keys.RETURN)
+    time.sleep(2)
+    driver.find_element(by="xpath",value="/html/body/div/header/div/div/nav/div[2]/ul[1]/li[5]/a").click()
+    time.sleep(2)
+    element=driver.find_element(by="xpath",value="/html/body")
+    pattern=re.search(r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}', element.text).group()
+    return pattern
+    
+   
+
+print(main())
+   
+     
+EOF
+)
+
+python3 -c "$result"</value>
+        <variable display_value="Command">7c1e5b2473332300673d94596bf6a76b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c898716f832f7510c0499750ceaad3fd</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>c098b16f832f7510c0499750ceaad309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+        <value>0034185b83673510c0499750ceaad33c</value>
+        <variable display_value="Credential Alias">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d^id=c898716f832f7510c0499750ceaad3fd"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c898716f832f7510c0499750ceaad3fd"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=c898716f832f7510c0499750ceaad3fd"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c898716f832f7510c0499750ceaad3fd"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c898716f832f7510c0499750ceaad3fd^sys_idNOT IN4c98b16f832f7510c0499750ceaad304"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>mid_server</input_name>
+        <instance>c898716f832f7510c0499750ceaad3fd</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"mid_server":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn \"e6ec8c9f83273510c0499750ceaad3b9\";\n"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>4c98b16f832f7510c0499750ceaad304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_c898716f832f7510c0499750ceaad3fd"/>
+    <sys_hub_action_input action="delete_multiple" query="model=7f88716f832f7510c0499750ceaad3eb"/>
+    <sys_hub_action_output action="delete_multiple" query="model=7f88716f832f7510c0499750ceaad3eb^sys_idNOT IN0898b16f832f7510c0499750ceaad328,c098b16f832f7510c0499750ceaad32d,cc98b16f832f7510c0499750ceaad330"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=237d3b05-d5ea-4ee5-a438-644ea2d85568</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>details</element>
+        <element_prototype display_value="Output" element="output" name="var__m_sys_flow_step_definition_output_761bdfa073332300673d94596bf6a72d">fab0a3a473332300673d94596bf6a70b</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Details</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="SN IP Address">7f88716f832f7510c0499750ceaad3eb</model>
+        <model_id>7f88716f832f7510c0499750ceaad3eb</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_7f88716f832f7510c0499750ceaad3eb</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>0898b16f832f7510c0499750ceaad328</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 14:26:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0898b16f832f7510c0499750ceaad328"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0898b16f832f7510c0499750ceaad328^sys_idNOT IN0898b16f832f7510c0499750ceaad33a"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>details</input_name>
+        <instance>0898b16f832f7510c0499750ceaad328</instance>
+        <referenced_table>sys_hub_action_output</referenced_table>
+        <script>{"variable":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>0898b16f832f7510c0499750ceaad33a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD8498b16f3f2f751090bccb16ace6a225,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=2984f2c8-88f6-40ef-bdce-fe20f4911666</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="SN IP Address">7f88716f832f7510c0499750ceaad3eb</model>
+        <model_id>7f88716f832f7510c0499750ceaad3eb</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_7f88716f832f7510c0499750ceaad3eb</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>c098b16f832f7510c0499750ceaad32d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c098b16f832f7510c0499750ceaad32d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c098b16f832f7510c0499750ceaad32d"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f8ba6096-7d40-4a3e-84ee-58f8ee22f487,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="SN IP Address">7f88716f832f7510c0499750ceaad3eb</model>
+        <model_id>7f88716f832f7510c0499750ceaad3eb</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_7f88716f832f7510c0499750ceaad3eb</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>cc98b16f832f7510c0499750ceaad330</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 14:26:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cc98b16f832f7510c0499750ceaad330"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cc98b16f832f7510c0499750ceaad330"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7f88716f832f7510c0499750ceaad3eb^sys_idNOT IN8c98b16f832f7510c0499750ceaad33e,c498b16f832f7510c0499750ceaad33e"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>7f88716f832f7510c0499750ceaad3eb</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>e09081c8-6444-429a-af77-df18c090834f</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>8c98b16f832f7510c0499750ceaad33e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>3ad8fcfd-2114-48f2-a2e0-dc3337fcbeb5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>7f88716f832f7510c0499750ceaad3eb</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.imagepath}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>c498b16f832f7510c0499750ceaad33e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e09081c8-6444-429a-af77-df18c090834f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=7f88716f832f7510c0499750ceaad3eb^sys_idNOT IN8098b16f832f7510c0499750ceaad33f"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="SN IP Address">7f88716f832f7510c0499750ceaad3eb</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>8098b16f832f7510c0499750ceaad33f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=8098b16f832f7510c0499750ceaad33f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_7f88716f832f7510c0499750ceaad3eb"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_7f88716f832f7510c0499750ceaad3eb"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_7f88716f832f7510c0499750ceaad3eb^sys_idNOT IN8098b16f832f7510c0499750ceaad330,8498b16f832f7510c0499750ceaad32c,c898b16f832f7510c0499750ceaad335"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_7f88716f832f7510c0499750ceaad3eb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>8098b16f832f7510c0499750ceaad330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>details</element>
+        <help/>
+        <hint/>
+        <label>Details</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_7f88716f832f7510c0499750ceaad3eb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>8498b16f832f7510c0499750ceaad32c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_7f88716f832f7510c0499750ceaad3eb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:41:46</sys_created_on>
+        <sys_id>c898b16f832f7510c0499750ceaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:41:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_7f88716f832f7510c0499750ceaad3eb"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=7f88716f832f7510c0499750ceaad3eb^sys_idNOT INf28935af832f7510c0499750ceaad3d4"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="SN IP Address">7f88716f832f7510c0499750ceaad3eb</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"f28935af832f7510c0499750ceaad3d4","name":"plan","plan_signature":null}}</plan>
+        <snapshot>67c2c66b836f7510c0499750ceaad380</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f28935af832f7510c0499750ceaad3d4</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 14:26:32</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>65a4509b83673510c0499750ceaad361</copied_from>
+        <copied_from_name/>
+        <description/>
+        <internal_name>sn_ip_address</internal_name>
+        <label_cache>[{"name":"{{action.imagepath}}","label":"action➛imagepath","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.number}}","label":"action➛Number","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.short_description}}","label":"action➛Short Description","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.description}}","label":"action➛Description","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[97527170-af87-4053-8ade-5fa258807a7c].output}}","label":"step➛SSH step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>SN IP Address</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="SN IP Address">7f88716f832f7510c0499750ceaad3eb</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a68935af832f7510c0499750ceaad33a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:02</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=a68935af832f7510c0499750ceaad33a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a68935af832f7510c0499750ceaad33a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>a68935af832f7510c0499750ceaad33a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:03</sys_created_on>
+        <sys_id>ae8935af832f7510c0499750ceaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:03</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">e28935af832f7510c0499750ceaad359</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>a68935af832f7510c0499750ceaad33a</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:03</sys_created_on>
+        <sys_id>ea8935af832f7510c0499750ceaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:03</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">a68935af832f7510c0499750ceaad369</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a68935af832f7510c0499750ceaad33a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>details</field>
+        <id>a68935af832f7510c0499750ceaad33a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:03</sys_created_on>
+        <sys_id>e28935af832f7510c0499750ceaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:03</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a68935af832f7510c0499750ceaad33a</table>
+        <value>{{step[97527170-af87-4053-8ade-5fa258807a7c].output}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>a68935af832f7510c0499750ceaad33a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:03</sys_created_on>
+        <sys_id>6a8935af832f7510c0499750ceaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:03</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a68935af832f7510c0499750ceaad33a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>a68935af832f7510c0499750ceaad33a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:03</sys_created_on>
+        <sys_id>a68935af832f7510c0499750ceaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:03</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a68935af832f7510c0499750ceaad33a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=a68935af832f7510c0499750ceaad33a^sys_idNOT INa68935af832f7510c0499750ceaad347"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="SN IP Address">a68935af832f7510c0499750ceaad33a</action>
+        <cid>97527170-af87-4053-8ade-5fa258807a7c</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>SSH step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:02</sys_created_on>
+        <sys_id>a68935af832f7510c0499750ceaad347</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 14:20:38</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a68935af832f7510c0499750ceaad347"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a68935af832f7510c0499750ceaad347</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:02</sys_created_on>
+        <sys_id>268935af832f7510c0499750ceaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:02</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a68935af832f7510c0499750ceaad347</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:02</sys_created_on>
+        <sys_id>2a8935af832f7510c0499750ceaad351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:02</sys_updated_on>
+        <value>0034185b83673510c0499750ceaad33c</value>
+        <variable display_value="Credential Alias">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a68935af832f7510c0499750ceaad347</document_key>
+        <order>470</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:02</sys_created_on>
+        <sys_id>2e8935af832f7510c0499750ceaad350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:02</sys_updated_on>
+        <value>specific_mid_server</value>
+        <variable display_value="MID Selection">25d3c74373531010791f94596bf6a712</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a68935af832f7510c0499750ceaad347</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:02</sys_created_on>
+        <sys_id>628935af832f7510c0499750ceaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:02</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a68935af832f7510c0499750ceaad347</document_key>
+        <order>650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:02</sys_created_on>
+        <sys_id>668935af832f7510c0499750ceaad351</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 14:20:38</sys_updated_on>
+        <value>#!/bin/bash
+
+result=$(cat &lt;&lt;EOF
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.keys import Keys
+import time
+import re
+
+service = Service('/home/kali/Downloads/chromedriver-linux64/chromedriver')
+
+def get_driver(url):
+    #Set options to make browsing easier
+    options = webdriver.ChromeOptions()
+    options.add_argument("disable-infobars")
+    options.add_argument("--start-maximized")
+    options.add_argument("window-size=1200x600")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--no-sandbox")
+    options.add_argument('--headless')
+    options.add_argument("--disable-extensions");
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_argument("disable-blink- features=AutomationControlled")
+
+    driver =webdriver.Chrome(service=service,options=options)
+    driver.get(url)
+    return driver
+
+
+def main():
+    driver=get_driver("https://dev224588.service-now.com/sp")
+    driver.find_element(by="id",value="username").send_keys("admin")
+    time.sleep(2)
+    driver.find_element(by="id",value="password").send_keys("Y@w*5p2ZFeXq" + Keys.RETURN)
+    time.sleep(2)
+    driver.find_element(by="xpath",value="/html/body/div/header/div/div/nav/div[2]/ul[1]/li[5]/a").click()
+    time.sleep(2)
+    element=driver.find_element(by="xpath",value="/html/body")
+    pattern=re.search(r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}', element.text).group()
+    return pattern
+    
+   
+
+print(main())
+   
+     
+EOF
+)
+
+python3 -c "$result"</value>
+        <variable display_value="Command">7c1e5b2473332300673d94596bf6a76b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a68935af832f7510c0499750ceaad347</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:02</sys_created_on>
+        <sys_id>a28935af832f7510c0499750ceaad351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:02</sys_updated_on>
+        <value>/home/kali</value>
+        <variable display_value="Working Directory">026edb2473332300673d94596bf6a7c6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a68935af832f7510c0499750ceaad347</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:02</sys_created_on>
+        <sys_id>ae8935af832f7510c0499750ceaad351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:02</sys_updated_on>
+        <value>192.168.29.182</value>
+        <variable display_value="Host">952cdbe073332300673d94596bf6a7a7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a68935af832f7510c0499750ceaad347</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:02</sys_created_on>
+        <sys_id>ea8935af832f7510c0499750ceaad351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:02</sys_updated_on>
+        <value>f24285c8932b03005d55925cf67ffbaf</value>
+        <variable display_value="Connection Alias">6b5c5fe073332300673d94596bf6a7a4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a68935af832f7510c0499750ceaad347</document_key>
+        <order>550</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:02</sys_created_on>
+        <sys_id>ee8935af832f7510c0499750ceaad350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:02</sys_updated_on>
+        <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
+        <variable display_value="Capabilities">37ddd72473332300673d94596bf6a781</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d^id=a68935af832f7510c0499750ceaad347"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=a68935af832f7510c0499750ceaad347"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=a68935af832f7510c0499750ceaad347"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=a68935af832f7510c0499750ceaad347"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a68935af832f7510c0499750ceaad347^sys_idNOT INa28935af832f7510c0499750ceaad34e"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>mid_server</input_name>
+        <instance>a68935af832f7510c0499750ceaad347</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"mid_server":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn \"e6ec8c9f83273510c0499750ceaad3b9\";\n"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:02</sys_created_on>
+        <sys_id>a28935af832f7510c0499750ceaad34e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:02</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_a68935af832f7510c0499750ceaad347"/>
+    <sys_hub_action_input action="delete_multiple" query="model=a68935af832f7510c0499750ceaad33a"/>
+    <sys_hub_action_output action="delete_multiple" query="model=a68935af832f7510c0499750ceaad33a^sys_idNOT INa68935af832f7510c0499750ceaad369,ae8935af832f7510c0499750ceaad354,e28935af832f7510c0499750ceaad359"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f8ba6096-7d40-4a3e-84ee-58f8ee22f487,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="SN IP Address">a68935af832f7510c0499750ceaad33a</model>
+        <model_id>a68935af832f7510c0499750ceaad33a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_a68935af832f7510c0499750ceaad33a</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:03</sys_created_on>
+        <sys_id>a68935af832f7510c0499750ceaad369</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 14:26:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a68935af832f7510c0499750ceaad369"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a68935af832f7510c0499750ceaad369"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=237d3b05-d5ea-4ee5-a438-644ea2d85568</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>details</element>
+        <element_prototype display_value="Output" element="output" name="var__m_sys_flow_step_definition_output_761bdfa073332300673d94596bf6a72d">fab0a3a473332300673d94596bf6a70b</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Details</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="SN IP Address">a68935af832f7510c0499750ceaad33a</model>
+        <model_id>a68935af832f7510c0499750ceaad33a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_a68935af832f7510c0499750ceaad33a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:02</sys_created_on>
+        <sys_id>ae8935af832f7510c0499750ceaad354</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 14:26:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ae8935af832f7510c0499750ceaad354"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ae8935af832f7510c0499750ceaad354^sys_idNOT IN6a8935af832f7510c0499750ceaad372"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>details</input_name>
+        <instance>ae8935af832f7510c0499750ceaad354</instance>
+        <referenced_table>sys_hub_action_output</referenced_table>
+        <script>{"variable":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:03</sys_created_on>
+        <sys_id>6a8935af832f7510c0499750ceaad372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:03</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=2984f2c8-88f6-40ef-bdce-fe20f4911666</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="SN IP Address">a68935af832f7510c0499750ceaad33a</model>
+        <model_id>a68935af832f7510c0499750ceaad33a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_a68935af832f7510c0499750ceaad33a</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:03</sys_created_on>
+        <sys_id>e28935af832f7510c0499750ceaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e28935af832f7510c0499750ceaad359"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e28935af832f7510c0499750ceaad359"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a68935af832f7510c0499750ceaad33a^sys_idNOT IN228935af832f7510c0499750ceaad376,e28935af832f7510c0499750ceaad376"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a68935af832f7510c0499750ceaad33a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.imagepath}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:03</sys_created_on>
+        <sys_id>228935af832f7510c0499750ceaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:03</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e09081c8-6444-429a-af77-df18c090834f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a68935af832f7510c0499750ceaad33a</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>e09081c8-6444-429a-af77-df18c090834f</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:03</sys_created_on>
+        <sys_id>e28935af832f7510c0499750ceaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:03</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>3ad8fcfd-2114-48f2-a2e0-dc3337fcbeb5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=a68935af832f7510c0499750ceaad33a^sys_idNOT INe68935af832f7510c0499750ceaad376"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="SN IP Address">a68935af832f7510c0499750ceaad33a</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:03</sys_created_on>
+        <sys_id>e68935af832f7510c0499750ceaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:03</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=e68935af832f7510c0499750ceaad376"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_a68935af832f7510c0499750ceaad33a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_a68935af832f7510c0499750ceaad33a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_a68935af832f7510c0499750ceaad33a^sys_idNOT IN6a8935af832f7510c0499750ceaad368,6e8935af832f7510c0499750ceaad36d,a68935af832f7510c0499750ceaad358"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a68935af832f7510c0499750ceaad33a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:03</sys_created_on>
+        <sys_id>6a8935af832f7510c0499750ceaad368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a68935af832f7510c0499750ceaad33a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:03</sys_created_on>
+        <sys_id>6e8935af832f7510c0499750ceaad36d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>details</element>
+        <help/>
+        <hint/>
+        <label>Details</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a68935af832f7510c0499750ceaad33a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 13:46:03</sys_created_on>
+        <sys_id>a68935af832f7510c0499750ceaad358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 13:46:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_a68935af832f7510c0499750ceaad33a"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>7f88716f832f7510c0499750ceaad3eb</sys_id>
+        <latest_snapshot>a68935af832f7510c0499750ceaad33a</latest_snapshot>
+        <compiler_build>glide-utah-12-21-2022__patch7a-09-28-2023_10-10-2023_1258.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

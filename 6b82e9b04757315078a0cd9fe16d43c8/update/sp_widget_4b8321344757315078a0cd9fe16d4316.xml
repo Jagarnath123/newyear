@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	
+let firstName = "John";
+let lastName = "Doe";
+
+let text = `Welcome ${firstName}, ${lastName}!`;
+	
+	console.log(text);
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>@import url('https://fonts.googleapis.com/css2?family=Lato&amp;display=swap');&#13;
+&#13;
+*{&#13;
+  &#13;
+  box-sizing:border-box;&#13;
+}&#13;
+&#13;
+.main{&#13;
+  background-image: url('https://images.unsplash.com/photo-1467810563316-b5476525c0f9?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1349&amp;q=80');&#13;
+  background-repeat:no-repeat;&#13;
+  background-size:cover;&#13;
+  background-position:center center;&#13;
+  height:100vh;&#13;
+  color:#fff;&#13;
+  font-family: 'Lato', sans-serif;&#13;
+  display:flex;&#13;
+  flex-direction:column;&#13;
+  align-items:center;&#13;
+  justify-content:center;&#13;
+  text-align:center;&#13;
+  margin:0;&#13;
+  overflow:hidden;&#13;
+    &#13;
+}&#13;
+&#13;
+.main::after{&#13;
+  content:'';&#13;
+  position:absolute;&#13;
+  top:0;&#13;
+  left:0;&#13;
+  width:100%;&#13;
+  height:100%;&#13;
+  background-color:rgba(0,0,0,0.5);&#13;
+   &#13;
+}&#13;
+&#13;
+.main *{&#13;
+  &#13;
+  z-index:1&#13;
+  &#13;
+}&#13;
+&#13;
+h1{&#13;
+  &#13;
+  font-size:60px;&#13;
+  margin:-80px 0 40px;&#13;
+  &#13;
+}&#13;
+&#13;
+&#13;
+.countdown{&#13;
+  &#13;
+  display:flex;&#13;
+  transform:scale(2);&#13;
+  &#13;
+}&#13;
+&#13;
+.time{&#13;
+  display:flex;&#13;
+  flex-direction:column;&#13;
+  align-items:center;&#13;
+  justify-content:center;&#13;
+  margin:15px;&#13;
+}&#13;
+&#13;
+.time h2{&#13;
+  margin:0 0 5px;&#13;
+}&#13;
+&#13;
+&#13;
+@media(max-width:500px){&#13;
+  &#13;
+  h1{&#13;
+    &#13;
+    font-size:45px;&#13;
+  }&#13;
+  &#13;
+  .time{&#13;
+    &#13;
+    margin:5px;&#13;
+    &#13;
+  }&#13;
+  &#13;
+   .time h2{&#13;
+    font-size:12px;&#13;
+     margin:0;&#13;
+  }&#13;
+  &#13;
+   .time small{&#13;
+    font-size:10px;&#13;
+  }&#13;
+   &#13;
+   &#13;
+    &#13;
+  &#13;
+  &#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>count_down</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>countdown</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 12:52:42</sys_created_on>
+        <sys_id>4b8321344757315078a0cd9fe16d4316</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>countdown</sys_name>
+        <sys_package display_value="New Year Countdown" source="x_1136210_new_ye_0">6b82e9b04757315078a0cd9fe16d43c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year Countdown">6b82e9b04757315078a0cd9fe16d43c8</sys_scope>
+        <sys_update_name>sp_widget_4b8321344757315078a0cd9fe16d4316</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 10:43:05</sys_updated_on>
+        <template><![CDATA[<div class="main">
+  <div id="year" class="year" >
+    
+  </div>
+  <h1>
+    New Year Countdown
+  </h1>
+  <div id="countdown" class="countdown" >
+    <div class="time">
+      <h2 id="days" > 00 </h2>
+      <small>days</small>
+    </div>
+    <div class="time">
+      <h2 id="hours" > 00 </h2>
+      <small>hours</small>
+    </div>
+    <div class="time">
+      <h2 id="minutes" > 00 </h2>
+      <small>minutes</small>
+    </div>
+    <div class="time">
+      <h2 id="seconds" > 00 </h2>
+      <small>seconds</small>
+    </div>
+    
+  </div>
+
+</div>]]></template>
+    </sp_widget>
+</record_update>
